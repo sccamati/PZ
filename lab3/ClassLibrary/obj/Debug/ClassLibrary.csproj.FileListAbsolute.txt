@@ -1,0 +1,5 @@
+C:\Users\mateu\Desktop\Semestr6\PZ\lab3\ClassLibrary\bin\Debug\ClassLibrary.dll
+C:\Users\mateu\Desktop\Semestr6\PZ\lab3\ClassLibrary\bin\Debug\ClassLibrary.pdb
+C:\Users\mateu\Desktop\Semestr6\PZ\lab3\ClassLibrary\obj\Debug\ClassLibrary.dll
+C:\Users\mateu\Desktop\Semestr6\PZ\lab3\ClassLibrary\obj\Debug\ClassLibrary.pdb
+C:\Users\mateu\Desktop\Semestr6\PZ\lab3\ClassLibrary\obj\Debug\ClassLibrary.csprojAssemblyReference.cache

@@ -1,0 +1,6 @@
+C:\Users\mateu\Desktop\Semestr6\PZ\lab3\lab3\bin\Debug\lab3.exe.config
+C:\Users\mateu\Desktop\Semestr6\PZ\lab3\lab3\bin\Debug\lab3.exe
+C:\Users\mateu\Desktop\Semestr6\PZ\lab3\lab3\bin\Debug\lab3.pdb
+C:\Users\mateu\Desktop\Semestr6\PZ\lab3\lab3\obj\Debug\lab3.csprojAssemblyReference.cache
+C:\Users\mateu\Desktop\Semestr6\PZ\lab3\lab3\obj\Debug\lab3.exe
+C:\Users\mateu\Desktop\Semestr6\PZ\lab3\lab3\obj\Debug\lab3.pdb

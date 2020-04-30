@@ -1,0 +1,9 @@
+C:\Users\mateu\Desktop\Semestr6\PZ\lab6\lab6FormsApp\bin\Debug\lab6FormsApp.exe.config
+C:\Users\mateu\Desktop\Semestr6\PZ\lab6\lab6FormsApp\bin\Debug\lab6FormsApp.exe
+C:\Users\mateu\Desktop\Semestr6\PZ\lab6\lab6FormsApp\bin\Debug\lab6FormsApp.pdb
+C:\Users\mateu\Desktop\Semestr6\PZ\lab6\lab6FormsApp\obj\Debug\lab6FormsApp.csprojAssemblyReference.cache
+C:\Users\mateu\Desktop\Semestr6\PZ\lab6\lab6FormsApp\obj\Debug\lab6FormsApp.Kalkulator.resources
+C:\Users\mateu\Desktop\Semestr6\PZ\lab6\lab6FormsApp\obj\Debug\lab6FormsApp.Properties.Resources.resources
+C:\Users\mateu\Desktop\Semestr6\PZ\lab6\lab6FormsApp\obj\Debug\lab6FormsApp.csproj.GenerateResource.cache
+C:\Users\mateu\Desktop\Semestr6\PZ\lab6\lab6FormsApp\obj\Debug\lab6FormsApp.exe
+C:\Users\mateu\Desktop\Semestr6\PZ\lab6\lab6FormsApp\obj\Debug\lab6FormsApp.pdb

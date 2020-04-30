@@ -1,0 +1,9 @@
+C:\Users\mateu\Desktop\Semestr6\PZ\lab4\lab4app\obj\Debug\lab4app.csprojAssemblyReference.cache
+C:\Users\mateu\Desktop\Semestr6\PZ\lab4\lab4app\bin\Debug\lab4app.exe.config
+C:\Users\mateu\Desktop\Semestr6\PZ\lab4\lab4app\bin\Debug\lab4app.exe
+C:\Users\mateu\Desktop\Semestr6\PZ\lab4\lab4app\bin\Debug\lab4app.pdb
+C:\Users\mateu\Desktop\Semestr6\PZ\lab4\lab4app\bin\Debug\lab4.dll
+C:\Users\mateu\Desktop\Semestr6\PZ\lab4\lab4app\bin\Debug\lab4.pdb
+C:\Users\mateu\Desktop\Semestr6\PZ\lab4\lab4app\obj\Debug\lab4app.csproj.CopyComplete
+C:\Users\mateu\Desktop\Semestr6\PZ\lab4\lab4app\obj\Debug\lab4app.exe
+C:\Users\mateu\Desktop\Semestr6\PZ\lab4\lab4app\obj\Debug\lab4app.pdb

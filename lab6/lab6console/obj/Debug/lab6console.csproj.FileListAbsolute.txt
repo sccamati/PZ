@@ -1,0 +1,9 @@
+C:\Users\mateu\Desktop\Semestr6\PZ\lab6\lab6console\bin\Debug\lab6console.exe.config
+C:\Users\mateu\Desktop\Semestr6\PZ\lab6\lab6console\bin\Debug\lab6console.exe
+C:\Users\mateu\Desktop\Semestr6\PZ\lab6\lab6console\bin\Debug\lab6console.pdb
+C:\Users\mateu\Desktop\Semestr6\PZ\lab6\lab6console\bin\Debug\lab6Lib.dll
+C:\Users\mateu\Desktop\Semestr6\PZ\lab6\lab6console\bin\Debug\lab6Lib.pdb
+C:\Users\mateu\Desktop\Semestr6\PZ\lab6\lab6console\obj\Debug\lab6console.csprojAssemblyReference.cache
+C:\Users\mateu\Desktop\Semestr6\PZ\lab6\lab6console\obj\Debug\lab6console.csproj.CopyComplete
+C:\Users\mateu\Desktop\Semestr6\PZ\lab6\lab6console\obj\Debug\lab6console.exe
+C:\Users\mateu\Desktop\Semestr6\PZ\lab6\lab6console\obj\Debug\lab6console.pdb

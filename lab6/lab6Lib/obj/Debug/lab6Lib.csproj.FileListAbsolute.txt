@@ -1,0 +1,5 @@
+C:\Users\mateu\Desktop\Semestr6\PZ\lab6\lab6Lib\bin\Debug\lab6Lib.dll
+C:\Users\mateu\Desktop\Semestr6\PZ\lab6\lab6Lib\bin\Debug\lab6Lib.pdb
+C:\Users\mateu\Desktop\Semestr6\PZ\lab6\lab6Lib\obj\Debug\lab6Lib.dll
+C:\Users\mateu\Desktop\Semestr6\PZ\lab6\lab6Lib\obj\Debug\lab6Lib.pdb
+C:\Users\mateu\Desktop\Semestr6\PZ\lab6\lab6Lib\obj\Debug\lab6Lib.csprojAssemblyReference.cache
