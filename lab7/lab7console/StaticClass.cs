@@ -15,15 +15,15 @@ namespace lab7console
             character.Hp = character.Maxhp;
         }
 
-        public static void IsDead(this Character character)
+        public static bool IsDead(this Character character)
         {
             if (character.Hp <= 0)
             {
-                Console.WriteLine("Dead");
+                return true;
             }
             else
             {
-                Console.WriteLine("Alive");
+                return false;
             }
         }
         

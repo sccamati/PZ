@@ -28,7 +28,7 @@ namespace lab7lib
 			Maxhp = 100;
 			Damage = 20;
 			Armor = 8;
-			ChanceToDodge = 10;
+			ChanceToDodge = 60;
 		}
 
 		public override string ToString()
@@ -44,6 +44,17 @@ namespace lab7lib
 			Maxhp += 15;
 			ChanceToDodge += 2;
 
+		}
+
+		public override void TakeDamage(int damage)
+		{
+			Random random = new Random();
+			int randomNumber = random.Next(1, 101);
+			if (ChanceToDodge > randomNumber)
+			{
+				base.TakeDamage(damage);
+			}
+			
 		}
 	}
 }

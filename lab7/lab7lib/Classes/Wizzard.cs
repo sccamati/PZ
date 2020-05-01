@@ -12,8 +12,8 @@ namespace lab7lib
 		public int Mp { get; set; }
 
 		public int MaxMp { get; set; }
-		public int MaxMP { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-		public int CurrentMP { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+		public int MaxMP { get; set; }
+		public int CurrentMP { get; set; }
 
 		public Wizzard(string name, int lvl, int exp, int strength, int dexterity, int intelligence, int hp, int maxhp, int damage, int armor, int mp, int mpMax) : base(name, lvl, exp, strength, dexterity, intelligence, hp, maxhp, damage, armor)
 		{
@@ -55,13 +55,15 @@ namespace lab7lib
 		{
 			if(MP > Mp)
 			{
+				return 0;
 				throw new ManaException("Za mało many");
 			}
 			else
 			{
 				Mp -= MP;
+				return DamagePerRound;
 			}
-			return MP/2;
+			
 		}
 	}
 }

@@ -41,11 +41,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Archer.cs" />
-    <Compile Include="Character.cs" />
+    <Compile Include="Classes\Archer.cs" />
+    <Compile Include="Classes\Character.cs" />
+    <Compile Include="Interfaces\IMagic.cs" />
+    <Compile Include="ManaException.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Wizzard.cs" />
-    <Compile Include="Worrior.cs" />
+    <Compile Include="Classes\Wizzard.cs" />
+    <Compile Include="Classes\Warrior.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -12,7 +12,10 @@ namespace lab7lib
 
 		public virtual int DamagePerRound
 		{
-			get { return damagePerRound; }
+			get 
+			{
+				return Damage; 
+			}
 		}
 
 
@@ -50,6 +53,10 @@ namespace lab7lib
 			Armor = armor;
 		}
 
+		protected Character()
+		{
+		}
+
 		public Character(string name)
 		{
 			Name = name;
@@ -77,7 +84,7 @@ namespace lab7lib
 
 		public abstract void LvlUp();
 
-	
+		
 		public int CompareTo(Character character)
 		{
 			return Lvl.CompareTo(character.Lvl);

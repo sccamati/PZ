@@ -1,0 +1,9 @@
+C:\Users\mateu\Desktop\Semestr6\PZ\lab7\lab7console\bin\Debug\lab7console.exe.config
+C:\Users\mateu\Desktop\Semestr6\PZ\lab7\lab7console\bin\Debug\lab7console.exe
+C:\Users\mateu\Desktop\Semestr6\PZ\lab7\lab7console\bin\Debug\lab7console.pdb
+C:\Users\mateu\Desktop\Semestr6\PZ\lab7\lab7console\bin\Debug\lab7lib.dll
+C:\Users\mateu\Desktop\Semestr6\PZ\lab7\lab7console\bin\Debug\lab7lib.pdb
+C:\Users\mateu\Desktop\Semestr6\PZ\lab7\lab7console\obj\Debug\lab7console.csprojAssemblyReference.cache
+C:\Users\mateu\Desktop\Semestr6\PZ\lab7\lab7console\obj\Debug\lab7console.csproj.CopyComplete
+C:\Users\mateu\Desktop\Semestr6\PZ\lab7\lab7console\obj\Debug\lab7console.exe
+C:\Users\mateu\Desktop\Semestr6\PZ\lab7\lab7console\obj\Debug\lab7console.pdb
