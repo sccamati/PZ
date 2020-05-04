@@ -12,7 +12,7 @@ namespace lab8lib
 		Defensive,
 		Healing,
 	}
-    public class Spell
+    public abstract class Spell
     {
 		private String name_;
 
@@ -54,7 +54,20 @@ namespace lab8lib
 			set { effect_ = value; }
 		}
 
-		
+		public override string ToString()
+		{
+			return $"Name: {Name} Type: {SpellType} Cost: {Cost} Cooldown: {Cooldown} Effect: {Effect}";
+		}
+
+		public override bool Equals(object obj)
+		{
+			return ToString() == obj.ToString();
+		}
+
+		public override int GetHashCode()
+		{
+			return ToString().GetHashCode();
+		}
 
 	}
 }

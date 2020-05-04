@@ -9,7 +9,7 @@ namespace lab6Lib
 	public delegate String DelegateShow(Pracownik pracownik);
 	public delegate void PracownikDelegat(Pracownik pracownik);
 	public delegate bool DelegateBool(Pracownik pracownik);
-	public delegate int DelegateSort(Pracownik prac1, Pracownik prac2);
+	public delegate bool DelegateSort(Pracownik prac1, Pracownik prac2);
 	public class Firma
     {
 		private List<Pracownik> pracownicy;
@@ -27,7 +27,7 @@ namespace lab6Lib
 		{
 			pracownicy.Add(pracownik);
 	
-				OnAdded?.Invoke(pracownik);
+			OnAdded?.Invoke(pracownik);
 			
 		}
 
@@ -61,7 +61,7 @@ namespace lab6Lib
 			{
 				for (int i = 0; i < pracownicy.Count - j - 1; i++)
 				{
-					if(delegat(pracownicy[i], pracownicy[i + 1]) > 0 )
+					if(delegat(pracownicy[i], pracownicy[i + 1]))
 					{
 						
 						Pracownik prac = pracownicy[i];
@@ -83,7 +83,7 @@ namespace lab6Lib
 			
 		}
 
-		public void DelegateMethod(PracownikDelegat pracownikDelegat) 
+		public void DelegateMethod(PracownikDelegat pracownikDelegat)
 		{
 			foreach (var item in pracownicy)
 			{
@@ -102,9 +102,6 @@ namespace lab6Lib
 
 		public List<Pracownik> Find3Wokers() => pracownicy.OrderByDescending(x => x.Staz).Take(3).ToList();
 		
-
-
-
 		
 	}
 }
