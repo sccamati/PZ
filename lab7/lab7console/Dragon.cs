@@ -28,7 +28,7 @@ namespace lab7console
 
         public override void LvlUp()
         {
-            throw new NotImplementedException();
+            this.Lvl +=1;
         }
 
         public int FireBreath()

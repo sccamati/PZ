@@ -1,0 +1,9 @@
+C:\Users\mateu\Desktop\Semestr6\PZ\lab8\Lab8console\bin\Debug\Lab8console.exe.config
+C:\Users\mateu\Desktop\Semestr6\PZ\lab8\Lab8console\bin\Debug\Lab8console.exe
+C:\Users\mateu\Desktop\Semestr6\PZ\lab8\Lab8console\bin\Debug\Lab8console.pdb
+C:\Users\mateu\Desktop\Semestr6\PZ\lab8\Lab8console\bin\Debug\lab8lib.dll
+C:\Users\mateu\Desktop\Semestr6\PZ\lab8\Lab8console\bin\Debug\lab8lib.pdb
+C:\Users\mateu\Desktop\Semestr6\PZ\lab8\Lab8console\obj\Debug\Lab8console.csprojAssemblyReference.cache
+C:\Users\mateu\Desktop\Semestr6\PZ\lab8\Lab8console\obj\Debug\Lab8console.csproj.CopyComplete
+C:\Users\mateu\Desktop\Semestr6\PZ\lab8\Lab8console\obj\Debug\Lab8console.exe
+C:\Users\mateu\Desktop\Semestr6\PZ\lab8\Lab8console\obj\Debug\Lab8console.pdb

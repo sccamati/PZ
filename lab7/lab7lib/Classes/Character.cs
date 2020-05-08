@@ -79,7 +79,15 @@ namespace lab7lib
 
 		public virtual void TakeDamage(int damage)
 		{
-			Hp -= Math.Abs(damage - Armor / 2);
+			if(damage - Armor/2 <= 0)
+			{
+				Hp -= 0;
+			}
+			else
+			{
+				Hp -= damage - Armor / 2;
+			}
+			
 		}
 
 		public abstract void LvlUp();

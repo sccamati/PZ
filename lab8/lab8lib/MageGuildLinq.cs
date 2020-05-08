@@ -6,17 +6,8 @@ using System.Threading.Tasks;
 
 namespace lab8lib
 {
-    public class MagesGuild : List<Mage>
+    public partial class MageGuild
     {
-        public override string ToString()
-        {
-            String mages = "";
-            foreach (var item in this)
-            {
-                mages += item.ToString() + "\n";
-            }
-            return mages;
-        }
 
         public void AllMages()
         {
@@ -24,9 +15,10 @@ namespace lab8lib
 
             foreach (var mage in result)
             {
-                mage.ToString();
+                Console.WriteLine(mage);
             }
         }
+
 
         public void ExperiencedMages(int lvl)
         {
@@ -35,7 +27,7 @@ namespace lab8lib
 
             foreach (var mage in result)
             {
-                mage.ToString();
+                Console.WriteLine(mage);
 
             }
         }
@@ -47,7 +39,7 @@ namespace lab8lib
 
             foreach (var mage in result)
             {
-                mage.ToString();
+                Console.WriteLine(mage);
             }
         }
 
@@ -104,37 +96,54 @@ namespace lab8lib
 
             foreach (var spell in spells)
             {
-                spell.ToString();
+                Console.WriteLine(spell);
             }
         }
 
-        public void SpellsByType(Type type)
+        public void SpellsByType(SpellType type)
         {
-            var spells = this.SelectMany(s => s.SpellBook).Where(s => s.SpellType.Equals(type)).Distinct();
+            var spells = this.SelectMany(s => s.SpellBook)
+                .Where(s => s.Type.Equals(type)).Distinct();
             Console.WriteLine($"all {type} spells");
             foreach (var spell in spells)
             {
-                spell.ToString();
+                Console.WriteLine(spell);
             }
         }
-
-        public void SpellsByNameAndType(String name, Type type)
+        public void SpellsByNameAndType(String name, SpellType type)
         {
             var spells = this.Single(m => m.Name.Equals(name))
-                .SpellBook.Where(s => s.SpellType.Equals(type));
+                .SpellBook.Where(s => s.Type.Equals(type));
 
             foreach (var spell in spells)
             {
-                spell.ToString();
+                Console.WriteLine(spell);
             }
         }
 
-        public void CountSpellsByType (Type type)
+
+
+        public void CountSpells()
         {
-            var spells = this.SelectMany(m => m.SpellBook).Distinct().GroupBy(s => s.SpellType).Select(s => new
+            var spells = this.SelectMany(m => m.SpellBook).Distinct().GroupBy(s => s.Type).Select(s => new
             {
                 s.Key,
                 Count = s.Count()
+            });
+
+            foreach (var spell in spells)
+            {
+                Console.WriteLine($"{spell.Key} {spell.Count} ");
+            }
+        }
+
+        public void CountMagesSpells(String name)
+        {
+            var spells = this.Single(m => m.Name.Equals(name)).SpellBook.GroupBy(s => s.Type).Select(s => new
+            {
+                s.Key,
+                Count = s.Count()
+
             });
 
             foreach (var spell in spells)
@@ -171,7 +180,7 @@ namespace lab8lib
             }
         }
 
-        public void CheckLostConsciousness()
+        public void CheckPassOut()
         {
             var result = this.Any(m => m.HP == 0);
             if (result)
@@ -187,9 +196,23 @@ namespace lab8lib
 
         public void OnMission()
         {
+            var mages = this.Select(m => new
+            {
+                m.Name,
+                m.Level,
+                average = (m.IceResistance + m.FireResistance + m.PhysicalResistance + m.PoisonResistance) / 4,
+                m.FireResistance,
+                m.IceResistance,
+                m.PhysicalResistance,
+                m.PoisonResistance
+            }).OrderByDescending(m => m.Level).ThenBy(m => m.average).Take(3);
+
+            foreach (var mage in mages)
+            {
+                Console.WriteLine(mage);
+            }
 
         }
 
     }
-    
 }

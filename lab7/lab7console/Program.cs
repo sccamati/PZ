@@ -37,6 +37,11 @@ namespace lab7console
                 c.Lvl,
             });
 
+            foreach (var champ in champions)
+            {
+                Console.WriteLine(champ);
+            }
+
             while(!dragon.IsDead())
             {
                 int i = 0;
@@ -76,7 +81,6 @@ namespace lab7console
                     dragon.TakeDamage(character.DamagePerRound);
                 }
 
-                
                 Console.WriteLine($"Dragon's health {dragon.Hp}");
             }
 

@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace lab8lib
 {
-	public enum Type
+	public enum SpellType
 	{
 		Offensive,
-		Defensive,
+		Deffensive,
 		Healing,
 	}
-    public abstract class Spell
+    public class Spell
     {
 		private String name_;
 
@@ -22,28 +22,28 @@ namespace lab8lib
 			set { name_ = value; }
 		}
 
-		private Type spellType_;
+		private SpellType type_;
 
-		public Type SpellType
+		public SpellType Type
 		{
-			get { return spellType_; }
-			set { spellType_ = value; }
+			get { return type_; }
+			set { type_ = value; }
 		}
 
-		private int cost_;
+		private int manaCost_;
 
-		public int Cost
+		public int ManaCost
 		{
-			get { return cost_; }
-			set { cost_ = value; }
+			get { return manaCost_; }
+			set { manaCost_ = value; }
 		}
 
-		private int cooldown_;
+		private int coolDown_;
 
-		public int Cooldown
+		public int CoolDown
 		{
-			get { return cooldown_; }
-			set { cooldown_ = value; }
+			get { return coolDown_; }
+			set { coolDown_ = value; }
 		}
 
 		private int effect_;
@@ -56,7 +56,7 @@ namespace lab8lib
 
 		public override string ToString()
 		{
-			return $"Name: {Name} Type: {SpellType} Cost: {Cost} Cooldown: {Cooldown} Effect: {Effect}";
+			return $"Name: {Name} Type: {Type} Cost: {ManaCost} Cooldown: {CoolDown} Effect: {Effect}";
 		}
 
 		public override bool Equals(object obj)
