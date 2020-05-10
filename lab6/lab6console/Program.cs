@@ -26,12 +26,16 @@ namespace lab6console
             Console.WriteLine(pracownik2.ToString()); 
             Console.WriteLine("Info");
 
+
+
             firma.EmployeeInfo(e => $"ID {e.ID} zarabia {e.Pensja}");
             Console.WriteLine("Search");
             firma.SearchEmployees(e => e.ID > 2).ForEach(e => Console.WriteLine(e.ToString()));
             firma.Sort((prac1, prac2) => prac1.ID.CompareTo(prac2.ID)>0);
             Console.WriteLine("Po sortowaniu");
             firma.EmployeeInfo(e => $"ID {e.ID} zarabia {e.Pensja}");
+
+            Console.WriteLine(firma.FindByID(3));
         }
 
         private static void DeleteMessage(Pracownik pracownik)

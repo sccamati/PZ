@@ -19,7 +19,7 @@ namespace lab8lib
             }
         }
 
-
+        
         public void ExperiencedMages(int lvl)
         {
             var result = this.Where(m => m.Level > lvl)
@@ -59,7 +59,7 @@ namespace lab8lib
 
             foreach (var mage in result)
             {
-                Console.WriteLine(result);
+                Console.WriteLine(mage);
             }
         }
 
@@ -120,7 +120,6 @@ namespace lab8lib
                 Console.WriteLine(spell);
             }
         }
-
 
 
         public void CountSpells()

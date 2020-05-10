@@ -1,0 +1,17 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+
+namespace Bank.Models
+{
+    public class Address
+    {
+        public int Id { get; set; }
+        public String HouseNumber { get; set; }
+        public String Street { get; set; }
+        public String PostCode { get; set; }
+        public String City { get; set; }
+
+    }
+}

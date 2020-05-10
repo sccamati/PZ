@@ -20,44 +20,76 @@ namespace Lab8console
             {
                 Console.WriteLine(e);
             }
-            
-            Console.WriteLine(guild);
-            Console.WriteLine("AllMAges");
-            guild.AllMages();
-            Console.WriteLine("ExperiencedMages");
-            guild.ExperiencedMages(10);
-            Console.WriteLine("TalendetMages");
-            guild.TalentedMages(80);
-            Console.WriteLine("AllCombatMages");
-            guild.AllCombatMages();
-            Console.WriteLine("MagesWithMostSpells");
-            guild.MageWithMostSpells(3);
-            Console.WriteLine("VersatileMages");
-            guild.VersatileMages();
-            Console.WriteLine("MostSpells");
-            guild.MostSpells();
-            Console.WriteLine("CheckSpells");
-            guild.CheckSpells();
-            Console.WriteLine("SpellsByType");
-            guild.SpellsByType(SpellType.Offensive);
-            Console.WriteLine("SpellsByNameAndType");
-            guild.SpellsByNameAndType("Gandalf", SpellType.Offensive);
-            Console.WriteLine("CountSpells");
-            guild.CountSpells();
-            Console.WriteLine("CountMagesSpells");
-            guild.CountMagesSpells("Gandalf");
-            Console.WriteLine("MostPowerfullMages");
-            guild.MostPowerfullMages();
-            Console.WriteLine("QuidditchReady");
-            guild.QuidditchReady();
-            Console.WriteLine("CheckPassOut");
-            guild.CheckPassOut();
-            Console.WriteLine("OnMission");
-            guild.OnMission();
-           
-            
 
-            
+
+
+            Write("AllMAges");
+            guild.AllMages();
+
+            Write("ExperiencedMages");
+            guild.ExperiencedMages(10);
+
+            Write("TalendetMages");
+            guild.TalentedMages(120);
+
+            Write("AllCombatMages");
+            guild.AllCombatMages();
+
+            Write("MagesWithMostSpells");
+            guild.MageWithMostSpells(3);
+
+            Write("VersatileMages");
+            guild.VersatileMages();
+
+            Write("MostSpells");
+            guild.MostSpells();
+
+            Write("CheckSpells");
+            guild.CheckSpells();
+
+            Write("SpellsByType");
+            guild.SpellsByType(SpellType.Offensive);
+
+            Write("SpellsByNameAndType");
+            guild.SpellsByNameAndType("Gandalf", SpellType.Offensive);
+
+            Write("CountSpells");
+            guild.CountSpells();
+
+            Write("CountMagesSpells");
+            guild.CountMagesSpells("Gandalf");
+
+            Write("MostPowerfullMages");
+            guild.MostPowerfullMages();
+
+            Write("QuidditchReady");
+            guild.QuidditchReady();
+
+            Write("CheckPassOut");
+            guild.CheckPassOut();
+
+            Write("OnMission");
+            guild.OnMission();
+
+            Write("Rozszerzeniowe 1");
+            guild.Strongest1();
+
+            Write("Rozszerzeniowe 2");
+            guild.Strongest2();
+
+            Write("Rozszerzeniowe 3");
+            guild.Strongest3();
+
+            Write("Rozszerzeniowe 4");
+            guild.Strongest4();
+
+            Write("Rozszerzeniowe 5");
+            guild.Strongest5();
+
+            Write("Rozszerzeniowe 6");
+            guild.Strongest6();
+
+
         }
 
         private static MageGuild initializeGuild()
@@ -96,7 +128,7 @@ namespace Lab8console
                 Experience = 1000000,
                 Strength = 12,
                 Dextirity = 14,
-                Inteligence = 17,
+                Inteligence = 20,
                 HP = 150,
                 MaxHP = 150,
                 MP = 250,
@@ -162,6 +194,12 @@ namespace Lab8console
                 }
             });
             return guild;
+        }
+        private static void Write(String msg)
+        {
+            Console.BackgroundColor = ConsoleColor.Red;
+            Console.WriteLine(msg);
+            Console.BackgroundColor = ConsoleColor.Black;
         }
     }
 }
