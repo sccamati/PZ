@@ -1,6 +1,6 @@
 ﻿namespace lab2
 {
-    internal class MenadżerProjektu : Pracownik
+    public class MenadżerProjektu : Pracownik
     {
         private int liczbaProjektow;
 

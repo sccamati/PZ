@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace lab2
 {
-    class Programista : Pracownik
+	public class Programista : Pracownik
     {
 		private int liczbaWykorzystywanychTechnologii;
 

@@ -1,6 +1,6 @@
 ﻿namespace lab2
 {
-    internal class Administrator : Pracownik
+    public class Administrator : Pracownik
     {
       
 

@@ -2,7 +2,7 @@
 
 namespace lab2
 {
-    internal abstract class Pracownik
+    public abstract class Pracownik
     {
         protected Pracownik()
         {
@@ -24,7 +24,7 @@ namespace lab2
         private String _nazwisko;
         private int _wiek;
         private decimal _pensja;
-
+        
         #region MyRegion
 
         public int Numer_Identyfikacyjny

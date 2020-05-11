@@ -1,6 +1,6 @@
 ﻿namespace lab2
 {
-    internal class ZdalnyProgramista : Programista
+    public class ZdalnyProgramista : Programista
     {
         private int odleglosc;
 

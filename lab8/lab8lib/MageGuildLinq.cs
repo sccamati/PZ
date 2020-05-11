@@ -9,7 +9,7 @@ namespace lab8lib
     public partial class MageGuild
     {
 
-        public void AllMages()
+        public void AllMages() // 1
         {
             var result = this.OrderBy(m => m.Name);
 
@@ -20,7 +20,7 @@ namespace lab8lib
         }
 
         
-        public void ExperiencedMages(int lvl)
+        public void ExperiencedMages(int lvl) //2
         {
             var result = this.Where(m => m.Level > lvl)
                 .OrderBy(m => m.Level);
@@ -32,7 +32,7 @@ namespace lab8lib
             }
         }
 
-        public void TalentedMages(int lvl)
+        public void TalentedMages(int lvl) //3
         {
             var result = this.Where(m => m.Level <= lvl && m.Inteligence > 20)
                 .OrderByDescending(m => m.Inteligence);
@@ -43,7 +43,7 @@ namespace lab8lib
             }
         }
 
-        public void AllCombatMages()
+        public void AllCombatMages() //4
         {
             var result = this.Where(m => m.Level > 2 && m.Dextirity > 10)
                 .Sum(m => m.MaxMP);
@@ -51,7 +51,7 @@ namespace lab8lib
             Console.WriteLine(result);
         }
 
-        public void MageWithMostSpells(int NumberOfSpells)
+        public void MageWithMostSpells(int NumberOfSpells) //5
         {
             var result = this.Where(m => m.SpellBook.Count >= NumberOfSpells)
                 .OrderByDescending(m => m.SpellBook.Count)
@@ -63,7 +63,7 @@ namespace lab8lib
             }
         }
 
-        public void VersatileMages()
+        public void VersatileMages() //6
         {
             var result = this.Select(x => new
             {
@@ -78,7 +78,7 @@ namespace lab8lib
             }
         }
 
-        public void MostSpells()
+        public void MostSpells() //7
         {
             var spells = this.Max(m => m.SpellBook.Count);
             var mages = this.Where(m => m.SpellBook.Count.Equals(spells));
@@ -90,7 +90,7 @@ namespace lab8lib
         }
 
 
-        public void CheckSpells()
+        public void CheckSpells() //8
         {
             var spells = this.SelectMany(s => s.SpellBook).Distinct();
 
@@ -100,7 +100,7 @@ namespace lab8lib
             }
         }
 
-        public void SpellsByType(SpellType type)
+        public void SpellsByType(SpellType type) //9
         {
             var spells = this.SelectMany(s => s.SpellBook)
                 .Where(s => s.Type.Equals(type)).Distinct();
@@ -110,7 +110,7 @@ namespace lab8lib
                 Console.WriteLine(spell);
             }
         }
-        public void SpellsByNameAndType(String name, SpellType type)
+        public void SpellsByNameAndType(String name, SpellType type) //10
         {
             var spells = this.Single(m => m.Name.Equals(name))
                 .SpellBook.Where(s => s.Type.Equals(type));
@@ -122,7 +122,7 @@ namespace lab8lib
         }
 
 
-        public void CountSpells()
+        public void CountSpells() //11
         {
             var spells = this.SelectMany(m => m.SpellBook).Distinct().GroupBy(s => s.Type).Select(s => new
             {
@@ -136,7 +136,7 @@ namespace lab8lib
             }
         }
 
-        public void CountMagesSpells(String name)
+        public void CountMagesSpells(String name) //12
         {
             var spells = this.Single(m => m.Name.Equals(name)).SpellBook.GroupBy(s => s.Type).Select(s => new
             {
@@ -151,7 +151,7 @@ namespace lab8lib
             }
         }
 
-        public void MostPowerfullMages()
+        public void MostPowerfullMages() //13
         {
             var result = this.OrderByDescending(m => m.Level).ThenByDescending(m => m.Experience).Skip(1).Take(2).Select(m => new
             {
@@ -165,7 +165,7 @@ namespace lab8lib
             }
         }
 
-        public void QuidditchReady()
+        public void QuidditchReady() //14
         {
             var result = this.All(m => m.MaxHP == m.HP && m.MaxMP == m.MP);
 
@@ -179,7 +179,7 @@ namespace lab8lib
             }
         }
 
-        public void CheckPassOut()
+        public void CheckPassOut() //15
         {
             var result = this.Any(m => m.HP == 0);
             if (result)
@@ -193,7 +193,7 @@ namespace lab8lib
 
         }
 
-        public void OnMission()
+        public void OnMission() //16
         {
             var mages = this.Select(m => new
             {

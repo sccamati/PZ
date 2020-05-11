@@ -2,16 +2,16 @@
 using System;
 namespace lab2
 {
-    internal class Program
+    public class Program
     {
         private static void Main(string[] args)
         {
             string pom = null;
             String pensja;
             List<Pracownik> pracownicy = new List<Pracownik>();
-            MenadżerProjektu menadżerProjektu = new MenadżerProjektu(1, "Piotr", "Kowalski", 30, 1600, 2);
-            Administrator administrator = new Administrator(2, 2, "Jan", "Polak", 34, 1700);
-            Programista programista = new Programista(4, 3, "Kamil", "Dobry", 27, 1800);
+            MenadżerProjektu menadżerProjektu = new MenadżerProjektu(1, "Pawel", "Kowalski", 30, 1600, 2);
+            Administrator administrator = new Administrator(2, 2, "Edek", "Polak", 34, 1700);
+            Programista programista = new Programista(4, 3, "Maciek", "Dobry", 27, 1800);
             ZdalnyProgramista zdalnyProgramista = new ZdalnyProgramista(1000, 6, 4, "Tomek", "Dobry", 32, 1900);
             pracownicy.Add(menadżerProjektu);
             pracownicy.Add(administrator);

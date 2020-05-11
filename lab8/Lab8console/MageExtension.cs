@@ -13,7 +13,7 @@ namespace Lab8console
         {
             var list = from m in mages
                        where m.Strength > 10
-                       orderby m.Strength
+                       orderby m.Strength descending
                        select m;
 
             foreach (var mage in list)
@@ -24,7 +24,7 @@ namespace Lab8console
 
         public static void Strongest2(this MageGuild mages)
         {
-            var mage = mages.Where(m => m.Strength > 10).OrderBy(m => m.Strength);
+            var mage = mages.Where(m => m.Strength > 10).OrderByDescending(m => m.Strength);
 
             foreach (var m in mage)
             {
@@ -34,7 +34,7 @@ namespace Lab8console
 
         public static void Strongest3(this MageGuild mages)
         {
-            var mage = Enumerable.Where(mages, m => m.Strength > 10).OrderBy(m => m.Strength);
+            var mage = Enumerable.OrderByDescending(Enumerable.Where(mages, m => m.Strength > 10), m => m.Strength );
 
             foreach (var m in mage)
             {
@@ -44,7 +44,8 @@ namespace Lab8console
 
         public static void Strongest4(this MageGuild mages)
         {
-            var mage = mages.Where(delegate (Mage m) { return m.Strength > 10; }).OrderBy(m => m.Strength);
+            var mage = mages.Where(delegate (Mage m) { return m.Strength > 10; })
+                .OrderByDescending(m => m.Strength);
 
             foreach (var m in mage)
             {
@@ -53,7 +54,7 @@ namespace Lab8console
         }
         public static void Strongest5(this MageGuild mages)
         {
-            var mage = mages.Where(CheckMage).OrderBy(m => m.Strength);
+            var mage = mages.Where(CheckMage).OrderByDescending(m => m.Strength);
 
             foreach (var m in mage)
             {
@@ -76,7 +77,19 @@ namespace Lab8console
                     list.Add(m);
                 }
             }
-            list.Sort(new MageComparer());
+            for (int j = 0; j < list.Count - 1; j++)
+            {
+                for (int i = 0; i < list.Count - j - 1; i++)
+                {
+                    if (list[i].Strength < list[i + 1].Strength)
+                    {
+
+                        Mage mage = list[i];
+                        list[i] = list[i + 1];
+                        list[i + 1] = mage;
+                    }
+                }
+            }
             foreach (var m in list)
             {
                 Console.WriteLine(m);

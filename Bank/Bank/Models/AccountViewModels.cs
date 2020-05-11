@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
 namespace Bank.Models
@@ -100,7 +101,7 @@ namespace Bank.Models
         [Required]
         [DataType(DataType.DateTime)]
         [Display(Name = "BirthDate")]
-        public string BirthDate { get; set; }
+        public DateTime BirthDate { get; set; }
 
 
         [Required]

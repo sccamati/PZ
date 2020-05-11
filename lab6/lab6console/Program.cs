@@ -25,7 +25,7 @@ namespace lab6console
             Placa.ZwiekszPlaceS(pracownik2);
             Console.WriteLine(pracownik2.ToString()); 
             Console.WriteLine("Info");
-
+            firma.DelegateMethod(e => e.Nazwisko = "Marek");
 
 
             firma.EmployeeInfo(e => $"ID {e.ID} zarabia {e.Pensja}");

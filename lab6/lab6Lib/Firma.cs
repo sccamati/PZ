@@ -17,8 +17,6 @@ namespace lab6Lib
 		public event PracownikDelegat OnDelete;
 
 
-
-
 		public Firma()
 		{
 			pracownicy = new List<Pracownik>();
@@ -78,7 +76,7 @@ namespace lab6Lib
 			var pracownik = pracownicy.Find(x => x.ID.Equals(id));
 			pracownicy.Remove(pracownik);
 			
-				OnDelete?.Invoke(pracownik);
+			OnDelete?.Invoke(pracownik);
 			
 			
 		}
