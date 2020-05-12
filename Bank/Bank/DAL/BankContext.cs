@@ -13,11 +13,14 @@ namespace Bank.DAL
         public BankContext() : base("DefaultConnection")
         {
         }
-
         public DbSet<Address> Addresses { get; set; }
         public DbSet<Profile> Profiles { get; set; }
         public DbSet<BankAccount> BankAccounts { get; set; }
-
+        public DbSet<TransferType> TransferTypes { get; set; }
+        public DbSet<Transfer> Transfers { get; set; }
+        public DbSet<Credit> Credits { get; set; }
+        public DbSet<CreditProposal> CreditProposals { get; set; }
+        public DbSet<Notification> Notifications { get; set; }
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();

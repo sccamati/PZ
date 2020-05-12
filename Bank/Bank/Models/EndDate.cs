@@ -8,8 +8,10 @@ namespace Bank.Models
     public class EndDate
     {
         public int Id { get; set; }
-        //ID user public int MyProperty { get; set; }
+        public int ProfileId { get; set; }
         public String Message { get; set; }
         public DateTime Date { get; set; }
+
+        public virtual Profile Profile { get; set; }
     }
 }

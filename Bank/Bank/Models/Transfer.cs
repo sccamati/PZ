@@ -11,6 +11,7 @@ namespace Bank.Models
         public int TransferTypeId { get; set; }
         public String AddressesNumber { get; set; }
         public String ReceiversName { get; set; }
+        public String AddressesName { get; set; }
         public String ReciversNumber { get; set; }
         public String Title { get; set; }
         public Decimal Cash { get; set; }
