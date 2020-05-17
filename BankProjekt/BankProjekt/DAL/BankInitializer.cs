@@ -72,22 +72,12 @@ namespace BankProjekt.DAL
             bankAccounts.ForEach(b => context.BankAccounts.Add(b));
             context.SaveChanges();
 
-            var transferTypes = new List<TransferType>
-            {
-                new TransferType {Name = "Transfer"},
-                new TransferType {Name = "Payment"},
-                new TransferType {Name = "PayOff"},
-            };
-
-            transferTypes.ForEach(tp => context.TransferTypes.Add(tp));
-            context.SaveChanges();
-
             var Transfers = new List<Transfer>
             {
-                new Transfer { TransferType = transferTypes[0], AddressesNumber = "1", ReceiversNumber = "2", AddressesName = "Pawel", ReceiversName = "Marek", Title = "za zakupy", Cash = 20, Date = DateTime.Parse("2020-05-03")},
-                new Transfer { TransferType = transferTypes[1], AddressesNumber = "2", ReceiversNumber = "1", AddressesName = "Maciek", ReceiversName = "Robert", Title = "za zakupy", Cash = 35, Date = DateTime.Parse("2020-05-03")},
-                new Transfer { TransferType = transferTypes[2], AddressesNumber = "3", ReceiversNumber = "1", AddressesName = "Tomek", ReceiversName = "Marek", Title = "za zakupy", Cash = 40, Date = DateTime.Parse("2020-05-03")},
-                new Transfer { TransferType = transferTypes[0], AddressesNumber = "3", ReceiversNumber = "2", AddressesName = "Tomek", ReceiversName = "Marek", Title = "za zakupy", Cash = 40, Date = DateTime.Parse("2020-05-03")}
+                new Transfer { TransferType = TransferType.Transfer, AddressesNumber = "1", ReceiversNumber = "2", AddressesName = "Pawel", ReceiversName = "Marek", Title = "za zakupy", Cash = 20, Date = DateTime.Parse("2020-05-03")},
+                new Transfer { TransferType = TransferType.Transfer, AddressesNumber = "2", ReceiversNumber = "1", AddressesName = "Maciek", ReceiversName = "Robert", Title = "za zakupy", Cash = 35, Date = DateTime.Parse("2020-05-03")},
+                new Transfer { TransferType = TransferType.Transfer, AddressesNumber = "3", ReceiversNumber = "1", AddressesName = "Tomek", ReceiversName = "Marek", Title = "za zakupy", Cash = 40, Date = DateTime.Parse("2020-05-03")},
+                new Transfer { TransferType = TransferType.Transfer, AddressesNumber = "3", ReceiversNumber = "2", AddressesName = "Tomek", ReceiversName = "Marek", Title = "za zakupy", Cash = 40, Date = DateTime.Parse("2020-05-03")}
             };
 
             Transfers.ForEach(n => context.Transfers.Add(n));

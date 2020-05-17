@@ -2,13 +2,15 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using System.Web.Mvc;
 
 namespace BankProjekt.Models
 {
+    [Authorize(Roles = "Admin, User")]
     public class Transfer
     {
         public int Id { get; set; }
-        public int TransferTypeId { get; set; }
+        public TransferType TransferType { get; set; }
         public String AddressesNumber { get; set; }
         public String ReceiversName { get; set; }
         public String AddressesName { get; set; }
@@ -17,6 +19,13 @@ namespace BankProjekt.Models
         public Decimal Cash { get; set;}
         public DateTime Date { get; set;}
 
-        public virtual TransferType TransferType { get; set; }
+        public virtual TransferType TransferTypeEnum { get; set; }
+
     }
+    public enum TransferType
+    {
+    Transfer,
+    Payment,
+    PayOff
+}
 }

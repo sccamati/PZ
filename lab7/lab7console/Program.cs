@@ -25,7 +25,7 @@ namespace lab7console
             characters.Add(warrior);
             characters.Add(archer2);
 
-            Dragon dragon = new Dragon { Armor = 10, Damage = 40, Dexterity = 34, Exp = 12000, Hp = 400, Intelligence = 40, Lvl = 12, Maxhp = 400, Name = "Stefan", Strength = 30 };
+            Dragon dragon = new Dragon { Armor = 10, Damage = 200, Dexterity = 34, Exp = 12000, Hp = 400, Intelligence = 40, Lvl = 12, Maxhp = 400, Name = "Stefan", Strength = 30 };
             dragon.OnFireBreathed += (damage) => characters.ForEach(d => d.TakeDamage(damage));
 
             archer.AddExperience(200);
@@ -50,11 +50,13 @@ namespace lab7console
                     if (character.IsDead())
                     {
                         i++;
-                        if(i == characters.Count)
-                        {
-                            break;
-                        }
+                        
                     }
+                }
+                if (i == characters.Count-1)
+                {
+                    Console.WriteLine("Dragon Wins");
+                    break;
                 }
                 Battle(characters, dragon);
             }
@@ -70,18 +72,21 @@ namespace lab7console
                 {
                     break;
                 }
-                Console.WriteLine($"{character.Name} Attacks dragon and deal {character.DamagePerRound}");
-                if(character is Wizzard)
+                
+                if (!character.IsDead())
                 {
-                    
-                    dragon.TakeDamage(Spell((Wizzard)character, 20));
+                    if (character is Wizzard)
+                    {
+                        Console.WriteLine($"{character.Name} Attacks dragon and deal {character.DamagePerRound}");
+                        dragon.TakeDamage(Spell((Wizzard)character, 20));
+                    }
+                    else
+                    {
+                        Console.WriteLine($"{character.Name} Attacks dragon and deal {character.DamagePerRound}");
+                        dragon.TakeDamage(character.DamagePerRound);
+                    }
                 }
-                else
-                {
-                    dragon.TakeDamage(character.DamagePerRound);
-                }
-
-                Console.WriteLine($"Dragon's health {dragon.Hp}");
+                
             }
 
 
@@ -92,11 +97,12 @@ namespace lab7console
             else
             {
                 Console.WriteLine("Dragon's round");
+                Console.WriteLine($"Dragon's health {dragon.Hp}");
                 Spell(dragon, 30);
                 foreach (var character in characters)
                 {
                     Console.WriteLine($"{character.Name} have {character.Hp}");
-                    if (character.Hp < (character.Maxhp * 0.2))
+                    if (character.Hp < (character.Maxhp * 0.2) && !character.IsDead())
                     {
                         character.DrinkHealthPotion();
                     }
