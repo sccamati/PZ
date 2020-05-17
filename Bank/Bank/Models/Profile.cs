@@ -9,8 +9,6 @@ namespace Bank.Models
     public class Profile
     {
         public int Id { get; set; }
-        public int AddressId { get; set; }
-        public int BankAccountId { get; set; }
         public String Name { get; set; }
         public String LastName { get; set; }
         public String Email { get; set; }
@@ -21,6 +19,6 @@ namespace Bank.Models
 
 
         public virtual Address Address { get; set; }
-        public virtual BankAccount BankAccount { get; set; }
+        public virtual ICollection<BankAccount> BankAccounts { get; set; }
     }
 }

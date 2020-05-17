@@ -168,10 +168,10 @@ namespace Bank.Controllers
                     BankContext db = new BankContext();
                     Address address = new Address { HouseNumber = model.HouseNumber, Street = model.Street, PostCode = model.PostalCode, City = model.City };
                     db.Addresses.Add(address);
-                    BankAccount bankAccount = new BankAccount { Number = "1", Balance = 0 };
-                    db.BankAccounts.Add(bankAccount);
-                    Profile profile = new Profile { BankAccount = bankAccount, Address = address, Name = model.Name, LastName = model.LastName, Email = model.Email, Pesel = model.PESEL, BirthDate = model.BirthDate, MothersName = model.MothersName };
+                    Profile profile = new Profile {Address = address, Name = model.Name, LastName = model.LastName, Email = model.Email, Pesel = model.PESEL, BirthDate = model.BirthDate, MothersName = model.MothersName };
                     db.Profiles.Add(profile);
+                    BankAccount bankAccount = new BankAccount { Number = "1", Balance = 0, Profile = profile};
+                    db.BankAccounts.Add(bankAccount);
                     db.SaveChanges();
 
                     return RedirectToAction("Index", "Home");
