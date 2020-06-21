@@ -1,0 +1,8 @@
+C:\Users\mateu\Desktop\Semestr6\PZ\lab12\lab12Binary\bin\Debug\lab12Binary.dll
+C:\Users\mateu\Desktop\Semestr6\PZ\lab12\lab12Binary\bin\Debug\lab12Binary.pdb
+C:\Users\mateu\Desktop\Semestr6\PZ\lab12\lab12Binary\bin\Debug\lib12.dll
+C:\Users\mateu\Desktop\Semestr6\PZ\lab12\lab12Binary\bin\Debug\lib12.pdb
+C:\Users\mateu\Desktop\Semestr6\PZ\lab12\lab12Binary\obj\Debug\lab12Binary.csprojAssemblyReference.cache
+C:\Users\mateu\Desktop\Semestr6\PZ\lab12\lab12Binary\obj\Debug\lab12Binary.csproj.CopyComplete
+C:\Users\mateu\Desktop\Semestr6\PZ\lab12\lab12Binary\obj\Debug\lab12Binary.dll
+C:\Users\mateu\Desktop\Semestr6\PZ\lab12\lab12Binary\obj\Debug\lab12Binary.pdb

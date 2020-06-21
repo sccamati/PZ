@@ -6,34 +6,51 @@
     <title>@ViewBag.Title - My ASP.NET Application</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
-
 </head>
+
 <body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
+
+    <div  class=" menuColor navbar navbar-fixed-top" >
+        <div   class="container">
+            <div  class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                @if (Context.User.IsInRole("User"))
+                {
+                    @Html.ActionLink("Super Bank", "UserIndex", "Home", new { area = "" }, new { @class = "my-menu navbar-brand" })
+                }
+                else
+                {
+                    @Html.ActionLink("Super Bank", "Index", "Home", new { area = "" }, new { @class = "my-menu navbar-brand" })
+                }
+
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                    <li>@Html.ActionLink("About", "About", "Home")</li>
-                    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
-                    @if (Request.IsAuthenticated)
+                    @if (Context.User.IsInRole("User"))
                     {
-                        <li>@Html.ActionLink("Credit Proposal", "Create", "CreditProposals")</li>
-                        <li>@Html.ActionLink("Transfer", "Create", "Transfers")</li>
-                        <li>@Html.ActionLink("Payment", "Payment", "Transfers")</li>
-                        <li>@Html.ActionLink("PayOff", "PayOff", "Transfers")</li>
-                        <li>@Html.ActionLink("History", "Index", "Transfers")</li>
-                        <li>@Html.ActionLink("My Profile", "Index", "Profiles")</li>
+                        <li>@Html.ActionLink("Credits List", "Index", "Credits", null, new {@class = "my-menu"})</li>
+                        <li>@Html.ActionLink("Credit Proposals List", "Index", "CreditProposals", null, new {@class = "my-menu"})</li>
+                        <li>@Html.ActionLink("Credit Proposal", "Create", "CreditProposals", null, new {@class = "my-menu"})</li>
+                        <li>@Html.ActionLink("Transfer", "Create", "Transfers", null, new {@class = "my-menu"})</li>
+                        <li>@Html.ActionLink("Payment/PayOff", "PaymentAndPayOff", "Transfers", null, new {@class = "my-menu"})</li>
+                        <li>@Html.ActionLink("History", "Index", "Transfers", null, new {@class = "my-menu"})</li>
+                        <li>@Html.ActionLink("My Profile", "Index", "Profiles", null, new {@class = "my-menu"})</li>
                     }
-
+                    @if (Context.User.IsInRole("Worker"))
+                    {
+                        <li>@Html.ActionLink("Credit Proposals", "CreditProposalsList", "Worker", null, new {@class = "my-menu"})</li>
+                        <li>@Html.ActionLink("Profiles", "ProfilesList", "Worker", null, new {@class = "my-menu"})</li>
+                    }
+                    @if (Context.User.IsInRole("Admin"))
+                    {
+                        <li>@Html.ActionLink("Credit Proposals", "CreditProposalsList", "Worker", null, new {@class = "my-menu"})</li>   
+                        <li>@Html.ActionLink("Profiles", "Index", "Admin", null, new {@class = "my-menu"})</li>
+                        <li>@Html.ActionLink("Add Worker", "Create", "Admin", null, new {@class = "my-menu"})</li>
+                    }
                 </ul>
                 @Html.Partial("_LoginPartial")
             </div>

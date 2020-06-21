@@ -1,66 +1,167 @@
-﻿@model IEnumerable<BankProjekt.Models.Profile>
+﻿@model BankProjekt.Models.Profile
 
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "My Profile";
 }
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<h2>My Profile</h2>
+@Html.ActionLink("Edit Profile", "Edit", new { id = Model.Id })
+@Html.ActionLink("Edit Address", "EditAddress", new { id = Model.Id })
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <h3>Address</h3>
+        <dt class="pull-left">
+            @Html.DisplayNameFor(model => model.Address.Street)
+        </dt>
 
-<h2>Index</h2>
+        <dd >
+            @Html.DisplayFor(model => model.Address.Street)
+        </dd>
+        <hr />
+        <dt>
+            @Html.DisplayNameFor(model => model.Address.HouseNumber)
+        </dt>
 
-<p>
-    @Html.ActionLink("Create New", "Create")
-</p>
-<table class="table">
-    <tr>
-        <th>
+        <dd>
+            @Html.DisplayFor(model => model.Address.HouseNumber)
+        </dd>
+        <hr />
+        <dt>
+            @Html.DisplayNameFor(model => model.Address.PostCode)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Address.PostCode)
+        </dd>
+        <hr />
+        <dt>
+            @Html.DisplayNameFor(model => model.Address.City)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Address.City)
+        </dd>
+        <hr />
+        <h3>Info</h3>
+        <dt>
             @Html.DisplayNameFor(model => model.Name)
-        </th>
-        <th>
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+        <hr />
+        <dt>
             @Html.DisplayNameFor(model => model.LastName)
-        </th>
-        <th>
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LastName)
+        </dd>
+        <hr />
+        <dt>
             @Html.DisplayNameFor(model => model.Email)
-        </th>
-        <th>
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+        <hr />
+        <dt>
             @Html.DisplayNameFor(model => model.Pesel)
-        </th>
-        <th>
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Pesel)
+        </dd>
+        <hr />
+        <dt>
             @Html.DisplayNameFor(model => model.BirthDate)
-        </th>
-        <th>
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.BirthDate)
+        </dd>
+        <hr />
+        <dt>
             @Html.DisplayNameFor(model => model.MothersName)
-        </th>
-        <th></th>
-    </tr>
+        </dt>
 
-@foreach (var item in Model) {
-    <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.Address.HouseNumber)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Name)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.LastName)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Email)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Pesel)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.BirthDate)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.MothersName)
-        </td>
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
-            @Html.ActionLink("Details", "Details", new { id=item.Id }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.Id })
-        </td>
-    </tr>
-}
+        <dd>
+            @Html.DisplayFor(model => model.MothersName)
+        </dd>
+        <hr />
+    </dl>
+    <h3>Bank Accounts</h3>
+    <br />
+    @if (Model.BankAccounts.Count() < 4)
+    {
+        using (Html.BeginForm("Create", "BankAccounts", FormMethod.Get))
+        {
+            @Html.AntiForgeryToken()
 
-</table>
+            <div class="form-group">
+                <input type="submit" value="Add new bank account" class="btn btn-default" />
+            </div>
+        }
+    }
+
+   
+        <table class="table table-striped">
+            <thead style="background-color: lightblue">
+                <tr>
+                    <th>Number</th>
+                    <th>Balance</th>
+                    <th>History</th>
+                </tr>
+            </thead>
+            @foreach (var item in Model.BankAccounts)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Number)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Balance)
+                    </td>
+                    <td>
+                        @Html.ActionLink("History", "Index", "Transfers", new { id = item.Id }, null)
+                    </td>
+                </tr>
+            }
+        </table>
+
+        <div>@ViewBag.Error</div>
+    
+
+    @if (Model.DefinedRecipients.Count != 0)
+    {
+        <h3>Definied Recipients</h3>
+
+        <table class="table table-striped">
+            <thead style="background-color: lightblue">
+                <tr>
+                    <th>Name</th>
+                    <th>Number</th>
+                    <th>Options</th>
+                </tr>
+                </thead>
+                @foreach (var item in Model.DefinedRecipients)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.ReceiversName)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.ReceiversNumber)
+                        </td>
+                        <td>
+                            @Html.ActionLink("Delete |", "Delete", "DefinedRecipients", new { id = item.Id }, null)
+                            @Html.ActionLink(" Edit", "Edit", "DefinedRecipients", new { id = item.Id }, null)
+                        </td>
+                    </tr>
+                }
+        </table>
+    }
+</div>

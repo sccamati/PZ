@@ -10,7 +10,7 @@ namespace lab7console
     {
         partial void OnFireBreathedPartial(int value)
         {
-            this.CurrentMP -= value;
+            CurrentMP -= value;
             Console.WriteLine("WRR pfufuuuuuu zium siup");
         }
     }

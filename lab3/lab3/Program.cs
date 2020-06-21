@@ -36,7 +36,7 @@ namespace lab3app
             }
 
             Console.WriteLine("Czasopisma o czestotliwości Miesiecznik");
-            foreach (var dok in dokuments.PobierzCzasopisma(Czestotliwosc.Miesiecznik))
+            foreach (var dok in dokuments.PobierzCzasopisma(Czestotliwosc.))
             {
             
                 Console.WriteLine(dok.Tytul);

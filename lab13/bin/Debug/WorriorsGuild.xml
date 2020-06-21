@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Guild>
+  <Worrior Gender="Man">
+    <Name>Marcin</Name>
+    <Strength>20</Strength>
+    <Health>120</Health>
+    <Troph>Ant</Troph>
+  </Worrior>
+  <Worrior Gender="Woman">
+    <Name>Paulina</Name>
+    <Strength>25</Strength>
+    <Health>130</Health>
+    <Troph>Dragon</Troph>
+  </Worrior>
+  <Worrior Gender="Man">
+    <Name>Pawel</Name>
+    <Strength>30</Strength>
+    <Health>150</Health>
+    <Troph>Dragon</Troph>
+  </Worrior>
+</Guild>

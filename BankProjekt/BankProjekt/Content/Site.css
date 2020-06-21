@@ -3,14 +3,24 @@
     padding-bottom: 20px;
 }
 
+.menuColor {
+    background-image: linear-gradient(to bottom, cornflowerblue, royalblue);
+    background-color: cornflowerblue
+}
+
+.my-menu {
+    color: white;
+}
+
+
 /* Set padding to keep content from hitting the edges */
 .body-content {
     padding-left: 15px;
     padding-right: 15px;
 }
 
-/* Override the default bootstrap behavior where horizontal description lists 
-   will truncate terms that are too long to fit in the left column 
+/* Override the default bootstrap behavior where horizontal description lists
+   will truncate terms that are too long to fit in the left column
 */
 .dl-horizontal dt {
     white-space: normal;

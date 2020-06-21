@@ -1,13 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data;
+﻿using BankProjekt.DAL;
+using BankProjekt.Models;
 using System.Data.Entity;
 using System.Linq;
 using System.Net;
-using System.Web;
 using System.Web.Mvc;
-using BankProjekt.DAL;
-using BankProjekt.Models;
 
 namespace BankProjekt.Controllers
 {
@@ -16,10 +12,17 @@ namespace BankProjekt.Controllers
         private BankContext db = new BankContext();
 
         // GET: Profiles
-        public ActionResult Index()
+        public ActionResult Index(int? id)
         {
-            var profiles = db.Profiles.Include(p => p.Address);
-            return View(profiles.ToList());
+
+            ViewBag.definedRecipients = db.DefinedRecipients.Where(dr => dr.Profile.Email.Equals(User.Identity.Name)).ToList();
+            if (id != null)
+            {
+                var profileW = db.Profiles.Include(p => p.Address).Single(p => p.Id == id);
+                return View(profileW);
+            }
+            var profile = db.Profiles.Include(p => p.Address).Single(p => p.Email.Equals(User.Identity.Name));
+            return View(profile);
         }
 
         // GET: Profiles/Details/5
@@ -37,30 +40,6 @@ namespace BankProjekt.Controllers
             return View(profile);
         }
 
-        // GET: Profiles/Create
-        public ActionResult Create()
-        {
-            ViewBag.Id = new SelectList(db.Addresses, "Id", "HouseNumber");
-            return View();
-        }
-
-        // POST: Profiles/Create
-        // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
-        // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "Id,Name,LastName,Email,Pesel,BirthDate,MothersName")] Profile profile)
-        {
-            if (ModelState.IsValid)
-            {
-                db.Profiles.Add(profile);
-                db.SaveChanges();
-                return RedirectToAction("Index");
-            }
-
-            ViewBag.Id = new SelectList(db.Addresses, "Id", "HouseNumber", profile.Id);
-            return View(profile);
-        }
 
         // GET: Profiles/Edit/5
         public ActionResult Edit(int? id)
@@ -74,12 +53,11 @@ namespace BankProjekt.Controllers
             {
                 return HttpNotFound();
             }
-            ViewBag.Id = new SelectList(db.Addresses, "Id", "HouseNumber", profile.Id);
             return View(profile);
         }
 
         // POST: Profiles/Edit/5
-        // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
+        // To protect from overposting attacks, please enable the specific properties you want to bind to, for
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -91,8 +69,38 @@ namespace BankProjekt.Controllers
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
-            ViewBag.Id = new SelectList(db.Addresses, "Id", "HouseNumber", profile.Id);
             return View(profile);
+        }
+
+        // GET: Profiles/Edit/5
+        public ActionResult EditAddress(int? id)
+        {
+            if (id == null)
+            {
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+            }
+            Address address = db.Profiles.Find(id).Address;
+            if (address == null)
+            {
+                return HttpNotFound();
+            }
+            return View(address);
+        }
+
+        // POST: Profiles/Edit/5
+        // To protect from overposting attacks, please enable the specific properties you want to bind to, for
+        // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult EditAddress([Bind(Include = "Id, HouseNumber, Street, PostCode, City")] Address address)
+        {
+            if (ModelState.IsValid)
+            {
+                db.Entry(address).State = EntityState.Modified;
+                db.SaveChanges();
+                return RedirectToAction("Index");
+            }
+            return View(address);
         }
 
         // GET: Profiles/Delete/5

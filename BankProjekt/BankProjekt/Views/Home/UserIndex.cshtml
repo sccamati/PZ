@@ -1,0 +1,153 @@
+﻿@model IEnumerable<BankProjekt.Models.Transfer>
+@using BankProjekt.Models
+@{
+    ViewBag.Title = "Home";
+}
+
+<h2>Welcome to Super Bank</h2>
+<hr />
+<br />
+<h4>Your Accounts</h4>
+<table class="table table-striped">
+    <thead style="background-color: lightblue">
+        <tr>
+            <th>
+                Number
+            </th>
+            <th>
+                Balance
+            </th>
+        </tr>
+        </thead>
+        @foreach (var account in (List<BankAccount>)ViewBag.BankAccounts)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => account.Number)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => account.Balance)
+                </td>
+            </tr>
+
+        }
+</table>
+
+
+<hr />
+<br />
+<h4>Last Transfers</h4>
+@Html.ActionLink("Check All", "Index", "Transfers")
+<table class="table table-striped">
+    <thead style="background-color: lightblue">
+        <tr>
+            <th>
+                Type
+            </th>
+            <th>
+                To/From
+            </th>
+            <th>
+                Number
+            </th>
+            <th>
+                Balance
+            </th>
+            <th>
+                Title
+            </th>
+            <th>
+                Cash
+            </th>
+            <th>
+                Date
+            </th>
+
+        </tr>
+    </thead>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+
+            @foreach (var number in (IEnumerable<String>)ViewBag.BankNumbers)
+            {
+                if (item.TransferType.ToString().Equals("Transfer") && item.AddressesNumber.Equals(number))
+                {
+                    <td>
+                        <span style="color:red">Outgoing</span>
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ReceiversName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ReceiversNumber)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.AddresseBalance)
+                    </td>
+                    break;
+                }
+                else if (item.TransferType.ToString().Equals("Transfer") && item.ReceiversNumber.Equals(number))
+                {
+                    <td>
+                        <span style="color:forestgreen">Incoming</span>
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.AddressesName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.AddressesNumber)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ReceiverBalance)
+                    </td>
+                    break;
+                }
+                else if (item.TransferType.ToString().Equals("Payment") || item.TransferType.ToString().Equals("Credit"))
+                {
+                    <td>
+                        <span style="color:blue">@Html.DisplayFor(modelItem => item.TransferType)</span>
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ReceiversName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ReceiversNumber)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ReceiverBalance)
+                    </td>
+                    break;
+                }
+                else if (item.TransferType.ToString().Equals("PayOff") || item.TransferType.ToString().Equals("CreditPayment"))
+                {
+                    <td>
+                        <span style="color:mediumpurple">@Html.DisplayFor(modelItem => item.TransferType)</span>
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.AddressesName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.AddressesNumber)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.AddresseBalance)
+                    </td>
+                    break;
+                }
+            }
+
+            <td>
+                @Html.DisplayFor(modelItem => item.Title)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cash)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Date)
+            </td>
+
+        </tr>
+    }
+</table>

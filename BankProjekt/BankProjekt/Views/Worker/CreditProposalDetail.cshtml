@@ -1,0 +1,48 @@
+﻿@model BankProjekt.Models.CreditProposal
+
+@{
+    ViewBag.Title = "View";
+}
+
+<h2>View</h2>
+
+<div>
+    <h4>Credit Proposal</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.BankAccount.Number)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.BankAccount.Number)
+        </dd>
+        <hr />
+        <dt>
+            @Html.DisplayNameFor(model => model.Cash)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Cash)
+        </dd>
+        <hr />
+        <dt>
+            @Html.DisplayNameFor(model => model.NumberOfMonths)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NumberOfMonths)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ProposalStatus)
+        </dt>
+        <hr />
+        <dd>
+            @Html.DisplayFor(model => model.ProposalStatus)
+        </dd>
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Back to List", "Index")
+</p>

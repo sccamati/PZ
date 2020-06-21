@@ -1,0 +1,91 @@
+﻿@model IEnumerable<BankProjekt.Models.CreditProposal>
+@using BankProjekt.Models
+@{
+    ViewBag.Title = "View";
+}
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+
+    $(document).ready(function () {
+        var value = $("#TypeSort").val().toLowerCase();
+        $("#ProposalTable tr").filter(function () {
+            $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+        });
+    });
+
+    $(document).ready(function () {
+        $("#TypeSort").on("click", function () {
+            var value = $(this).val().toLowerCase();
+            $("#ProposalTable tr").filter(function () {
+                $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+            });
+        });
+    });
+</script>
+
+<h2>View</h2>
+
+<div class="form-group">
+    @Html.Label("Find by Type: ", htmlAttributes: new { @class = "control-label col-md-2" })
+    <div class="col-md-7">
+        <select class="form-control" id="TypeSort">
+            <option value="waiting" selected>Waiting</option>
+            <option value="Approved">Approved</option>
+            <option value="Rejected">Rejected</option>
+        </select>
+    </div>
+</div>
+<br />
+<br />
+
+<table class="table table-striped">
+    <thead style="background-color: lightblue">
+        <tr>
+            <th>
+                @Html.DisplayName("User")
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Cash)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NumberOfMonths)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ProposalStatus)
+            </th>
+            <th>
+                @Html.DisplayName("Options")
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody id="ProposalTable">
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.ActionLink($"{item.BankAccount.Profile.Name} {item.BankAccount.Profile.LastName}", "Index", "Profiles", new { id = item.BankAccount.ProfileId }, null)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Cash)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NumberOfMonths)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ProposalStatus)
+                </td>
+
+                <td>
+                    @if (item.ProposalStatus.Equals(CreditProposalStatus.Waiting))
+                    {
+                        @Html.ActionLink("Reject |", "CreditProposalReject", new { id = item.Id })
+                        @Html.ActionLink(" Accept |", "CreditProposalAccept", new { id = item.Id })
+                    }
+                    @Html.ActionLink(" Details", "CreditProposalDetail", new { id = item.Id })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

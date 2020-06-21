@@ -1,0 +1,12 @@
+C:\Users\mateu\Desktop\Semestr6\PZ\lab12\Forms12\bin\Debug\Forms12.exe.config
+C:\Users\mateu\Desktop\Semestr6\PZ\lab12\Forms12\bin\Debug\Forms12.exe
+C:\Users\mateu\Desktop\Semestr6\PZ\lab12\Forms12\bin\Debug\Forms12.pdb
+C:\Users\mateu\Desktop\Semestr6\PZ\lab12\Forms12\bin\Debug\lib12.dll
+C:\Users\mateu\Desktop\Semestr6\PZ\lab12\Forms12\bin\Debug\lib12.pdb
+C:\Users\mateu\Desktop\Semestr6\PZ\lab12\Forms12\obj\Debug\Forms12.csprojAssemblyReference.cache
+C:\Users\mateu\Desktop\Semestr6\PZ\lab12\Forms12\obj\Debug\Forms12.Properties.Resources.resources
+C:\Users\mateu\Desktop\Semestr6\PZ\lab12\Forms12\obj\Debug\Forms12.csproj.GenerateResource.cache
+C:\Users\mateu\Desktop\Semestr6\PZ\lab12\Forms12\obj\Debug\Forms12.csproj.CopyComplete
+C:\Users\mateu\Desktop\Semestr6\PZ\lab12\Forms12\obj\Debug\Forms12.exe
+C:\Users\mateu\Desktop\Semestr6\PZ\lab12\Forms12\obj\Debug\Forms12.pdb
+C:\Users\mateu\Desktop\Semestr6\PZ\lab12\Forms12\obj\Debug\Forms12.Form1.resources

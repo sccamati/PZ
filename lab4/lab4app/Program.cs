@@ -88,7 +88,7 @@ namespace lab4app
             czlowieki.Sort(new DomyComparer());
             Console.WriteLine("porownanie");
 
-            /*switch(czlowiek.Compare(new SamochodComparer(), czlowiek1, czlowiek))
+            switch(czlowiek.Compare(new SamochodComparer(), czlowiek1, czlowiek))
             {
                 case 1:
                     break;
@@ -125,7 +125,7 @@ namespace lab4app
             Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine("Karmienie roslinozercy");
             Console.ForegroundColor = ConsoleColor.White;
-            KarmienieRoslinozercy(roslinozerne[0]); */
+            KarmienieRoslinozercy(roslinozerne[0]); 
         }
 
         private static void Dodaj()

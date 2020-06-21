@@ -4,8 +4,6 @@ using Microsoft.AspNet.Identity.EntityFramework;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
-using System.Linq;
-using System.Web;
 
 namespace BankProjekt.DAL
 {
@@ -21,7 +19,7 @@ namespace BankProjekt.DAL
 
             roleManager.Create(new IdentityRole("Admin"));
             roleManager.Create(new IdentityRole("User"));
-
+            roleManager.Create(new IdentityRole("Worker"));
 
             var user = new ApplicationUser { UserName = "email@wp.pl" };
             string password = "Password1.";
@@ -38,6 +36,10 @@ namespace BankProjekt.DAL
             userManager.Create(user3, password3);
             userManager.AddToRole(user3.Id, "Admin");
 
+            var worker = new ApplicationUser { UserName = "worker@wp.pl" };
+            string workerpass = "Worker1.";
+            userManager.Create(worker, workerpass);
+            userManager.AddToRole(worker.Id, "Worker");
 
             var addresses = new List<Address>
             {
@@ -48,16 +50,12 @@ namespace BankProjekt.DAL
 
             addresses.ForEach(a => context.Addresses.Add(a));
 
-
-
             var profiles = new List<Profile>
             {
                 new Profile { Address = addresses[0], Name = "Marcin", LastName = "Fajny", Email = user.UserName, BirthDate = DateTime.Parse("1998-01-03"), MothersName = "Magda", Pesel = "12312312312"},
                 new Profile { Address = addresses[1], Name = "Paweł", LastName = "Kowalski", Email = user2.UserName, BirthDate = DateTime.Parse("1999-02-03"), MothersName = "Aleksandra", Pesel = "12312312313"},
                 new Profile { Address = addresses[2], Name = "Adam", LastName = "Dobry", Email = user3.UserName, BirthDate = DateTime.Parse("2000-05-03"), MothersName = "Marysia", Pesel = "12312312314"},
-
             };
-
 
             profiles.ForEach(p => context.Profiles.Add(p));
             context.SaveChanges();
@@ -82,18 +80,6 @@ namespace BankProjekt.DAL
 
             Transfers.ForEach(n => context.Transfers.Add(n));
             context.SaveChanges();
-
-            var notifications = new List<Notification>
-            {
-                new Notification { Profile = profiles[0], Message = "New Transfer", Date = DateTime.Parse("2020-05-03")},
-                new Notification { Profile = profiles[1], Message = "New Transfer", Date = DateTime.Parse("2020-05-03")},
-                new Notification { Profile = profiles[2], Message = "New Transfer", Date = DateTime.Parse("2020-05-03")},
-            };
-
-            notifications.ForEach(n => context.Notifications.Add(n));
-            context.SaveChanges();
-
-
         }
     }
 }

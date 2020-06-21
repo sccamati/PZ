@@ -33,7 +33,6 @@ namespace ClassLibrary
             Console.BackgroundColor = ConsoleColor.Black;
             Console.ForegroundColor = ConsoleColor.White;
         }
-
        
     }
 }

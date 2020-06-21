@@ -28,7 +28,7 @@ namespace lab7console
 
         public override void LvlUp()
         {
-            this.Lvl +=1;
+            Lvl +=1;
         }
 
         public int FireBreath()

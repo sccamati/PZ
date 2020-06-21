@@ -1,0 +1,8 @@
+C:\Users\mateu\Desktop\Semestr6\PZ\lab12\lab12SOAP\bin\Debug\lab12SOAP.dll
+C:\Users\mateu\Desktop\Semestr6\PZ\lab12\lab12SOAP\bin\Debug\lab12SOAP.pdb
+C:\Users\mateu\Desktop\Semestr6\PZ\lab12\lab12SOAP\bin\Debug\lib12.dll
+C:\Users\mateu\Desktop\Semestr6\PZ\lab12\lab12SOAP\bin\Debug\lib12.pdb
+C:\Users\mateu\Desktop\Semestr6\PZ\lab12\lab12SOAP\obj\Debug\lab12SOAP.csprojAssemblyReference.cache
+C:\Users\mateu\Desktop\Semestr6\PZ\lab12\lab12SOAP\obj\Debug\lab12SOAP.csproj.CopyComplete
+C:\Users\mateu\Desktop\Semestr6\PZ\lab12\lab12SOAP\obj\Debug\lab12SOAP.dll
+C:\Users\mateu\Desktop\Semestr6\PZ\lab12\lab12SOAP\obj\Debug\lab12SOAP.pdb

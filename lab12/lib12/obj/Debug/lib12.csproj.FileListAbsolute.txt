@@ -1,0 +1,5 @@
+C:\Users\mateu\Desktop\Semestr6\PZ\lab12\lib12\bin\Debug\lib12.dll
+C:\Users\mateu\Desktop\Semestr6\PZ\lab12\lib12\bin\Debug\lib12.pdb
+C:\Users\mateu\Desktop\Semestr6\PZ\lab12\lib12\obj\Debug\lib12.csprojAssemblyReference.cache
+C:\Users\mateu\Desktop\Semestr6\PZ\lab12\lib12\obj\Debug\lib12.dll
+C:\Users\mateu\Desktop\Semestr6\PZ\lab12\lib12\obj\Debug\lib12.pdb

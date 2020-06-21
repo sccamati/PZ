@@ -1,0 +1,643 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9767b75a-527b-421e-8bc3-effa2fbf9d6c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../BankProjekt/BankProjekt/.vs/BankProjekt/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../BankProjekt/BankProjekt/.vs/BankProjekt/v16/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankProjekt/BankProjekt/.vs/BankProjekt/v16/Server/sqlite3/storage.ide" beforeDir="false" afterPath="$PROJECT_DIR$/../BankProjekt/BankProjekt/.vs/BankProjekt/v16/Server/sqlite3/storage.ide" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankProjekt/BankProjekt/.vs/BankProjekt/v16/Server/sqlite3/storage.ide-shm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankProjekt/BankProjekt/.vs/BankProjekt/v16/Server/sqlite3/storage.ide-wal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankProjekt/BankProjekt/App_Data/aspnet-BankProjekt-20200514083742.mdf" beforeDir="false" afterPath="$PROJECT_DIR$/../BankProjekt/BankProjekt/App_Data/aspnet-BankProjekt-20200514083742.mdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankProjekt/BankProjekt/App_Data/aspnet-BankProjekt-20200514083742_log.ldf" beforeDir="false" afterPath="$PROJECT_DIR$/../BankProjekt/BankProjekt/App_Data/aspnet-BankProjekt-20200514083742_log.ldf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankProjekt/BankProjekt/App_Start/BundleConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BankProjekt/BankProjekt/App_Start/BundleConfig.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankProjekt/BankProjekt/App_Start/FilterConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BankProjekt/BankProjekt/App_Start/FilterConfig.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankProjekt/BankProjekt/App_Start/IdentityConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BankProjekt/BankProjekt/App_Start/IdentityConfig.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankProjekt/BankProjekt/App_Start/RouteConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BankProjekt/BankProjekt/App_Start/RouteConfig.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankProjekt/BankProjekt/App_Start/Startup.Auth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BankProjekt/BankProjekt/App_Start/Startup.Auth.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankProjekt/BankProjekt/BankProjekt.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../BankProjekt/BankProjekt/BankProjekt.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankProjekt/BankProjekt/BankProjekt.csproj.user" beforeDir="false" afterPath="$PROJECT_DIR$/../BankProjekt/BankProjekt/BankProjekt.csproj.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Content/PagedList.css" beforeDir="false" afterPath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Content/PagedList.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Content/Site.css" beforeDir="false" afterPath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Content/Site.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Content/bootstrap-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Content/bootstrap-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Content/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Content/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Controllers/AccountController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Controllers/AccountController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Controllers/CreditProposalsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Controllers/CreditProposalsController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Controllers/HomeController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Controllers/ManageController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Controllers/ManageController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Controllers/ProfilesController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Controllers/ProfilesController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Controllers/TransfersController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Controllers/TransfersController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankProjekt/BankProjekt/DAL/BankContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BankProjekt/BankProjekt/DAL/BankContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankProjekt/BankProjekt/DAL/BankInitializer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BankProjekt/BankProjekt/DAL/BankInitializer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Global.asax.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Global.asax.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Models/AccountViewModels.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Models/AccountViewModels.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Models/Address.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Models/Address.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Models/BankAccount.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Models/BankAccount.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Models/Credit.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Models/Credit.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Models/CreditProposal.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Models/CreditProposal.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Models/IdentityModels.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Models/IdentityModels.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Models/ManageViewModels.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Models/ManageViewModels.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Models/Notification.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Models/Profile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Models/Profile.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Models/Transfer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Models/Transfer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Models/TransferDateGroup.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Views/Account/ConfirmEmail.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Views/Account/ConfirmEmail.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Views/Account/ExternalLoginConfirmation.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Views/Account/ExternalLoginConfirmation.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Views/Account/ExternalLoginFailure.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Views/Account/ExternalLoginFailure.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Views/Account/ForgotPassword.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Views/Account/ForgotPassword.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Views/Account/ForgotPasswordConfirmation.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Views/Account/ForgotPasswordConfirmation.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Views/Account/Login.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Views/Account/Login.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Views/Account/Register.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Views/Account/Register.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Views/Account/ResetPassword.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Views/Account/ResetPassword.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Views/Account/ResetPasswordConfirmation.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Views/Account/ResetPasswordConfirmation.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Views/Account/SendCode.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Views/Account/SendCode.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Views/Account/VerifyCode.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Views/Account/VerifyCode.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Views/Account/_ExternalLoginsListPartial.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Views/Account/_ExternalLoginsListPartial.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Views/CreditProposals/Create.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Views/CreditProposals/Create.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Views/CreditProposals/Delete.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Views/CreditProposals/Delete.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Views/CreditProposals/Details.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Views/CreditProposals/Details.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Views/CreditProposals/Edit.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Views/CreditProposals/Edit.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Views/CreditProposals/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Views/CreditProposals/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Views/Home/About.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Views/Home/Contact.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Views/Home/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Views/Manage/AddPhoneNumber.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Views/Manage/AddPhoneNumber.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Views/Manage/ChangePassword.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Views/Manage/ChangePassword.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Views/Manage/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Views/Manage/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Views/Manage/ManageLogins.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Views/Manage/ManageLogins.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Views/Manage/SetPassword.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Views/Manage/SetPassword.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Views/Manage/VerifyPhoneNumber.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Views/Manage/VerifyPhoneNumber.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Views/Profiles/Create.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Views/Profiles/Delete.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Views/Profiles/Delete.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Views/Profiles/Details.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Views/Profiles/Details.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Views/Profiles/Edit.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Views/Profiles/Edit.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Views/Profiles/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Views/Profiles/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Views/Shared/Error.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Views/Shared/Error.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Views/Shared/Lockout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Views/Shared/Lockout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Views/Shared/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Views/Shared/_LoginPartial.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Views/Shared/_LoginPartial.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Views/Transfers/About.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Views/Transfers/Create.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Views/Transfers/Create.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Views/Transfers/Delete.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Views/Transfers/Delete.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Views/Transfers/Details.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Views/Transfers/Details.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Views/Transfers/Edit.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Views/Transfers/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Views/Transfers/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Views/Web.config" beforeDir="false" afterPath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Views/Web.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Views/_ViewStart.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Views/_ViewStart.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Web.config" beforeDir="false" afterPath="$PROJECT_DIR$/../BankProjekt/BankProjekt/Web.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankProjekt/BankProjekt/bin/BankProjekt.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../BankProjekt/BankProjekt/bin/BankProjekt.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankProjekt/BankProjekt/bin/BankProjekt.dll.config" beforeDir="false" afterPath="$PROJECT_DIR$/../BankProjekt/BankProjekt/bin/BankProjekt.dll.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankProjekt/BankProjekt/bin/BankProjekt.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../BankProjekt/BankProjekt/bin/BankProjekt.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankProjekt/BankProjekt/obj/Debug/BankProjekt.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../BankProjekt/BankProjekt/obj/Debug/BankProjekt.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankProjekt/BankProjekt/obj/Debug/BankProjekt.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../BankProjekt/BankProjekt/obj/Debug/BankProjekt.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankProjekt/BankProjekt/obj/Debug/BankProjekt.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../BankProjekt/BankProjekt/obj/Debug/BankProjekt.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankProjekt/BankProjekt/obj/Debug/BankProjekt.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../BankProjekt/BankProjekt/obj/Debug/BankProjekt.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankProjekt/BankProjekt/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../BankProjekt/BankProjekt/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankProjekt/BankProjekt/packages.config" beforeDir="false" afterPath="$PROJECT_DIR$/../BankProjekt/BankProjekt/packages.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab3/ClassLibrary/Klasy/ExceptionInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/ClassLibrary/Klasy/ExceptionInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab3/ClassLibrary/bin/Debug/ClassLibrary.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/ClassLibrary/bin/Debug/ClassLibrary.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab3/ClassLibrary/bin/Debug/ClassLibrary.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/ClassLibrary/bin/Debug/ClassLibrary.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab3/ClassLibrary/obj/Debug/ClassLibrary.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/ClassLibrary/obj/Debug/ClassLibrary.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab3/ClassLibrary/obj/Debug/ClassLibrary.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/ClassLibrary/obj/Debug/ClassLibrary.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab3/ClassLibrary/obj/Debug/ClassLibrary.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/ClassLibrary/obj/Debug/ClassLibrary.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab3/lab3/.vs/lab3/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/lab3/.vs/lab3/v16/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab3/lab3/.vs/lab3/v16/Server/sqlite3/storage.ide" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/lab3/.vs/lab3/v16/Server/sqlite3/storage.ide" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab3/lab3/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/lab3/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab3/lab3/bin/Debug/ClassLibrary.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/lab3/bin/Debug/ClassLibrary.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab3/lab3/bin/Debug/ClassLibrary.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/lab3/bin/Debug/ClassLibrary.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab3/lab3/bin/Debug/lab3.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/lab3/bin/Debug/lab3.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab3/lab3/bin/Debug/lab3.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/lab3/bin/Debug/lab3.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab3/lab3/obj/Debug/lab3.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/lab3/obj/Debug/lab3.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab3/lab3/obj/Debug/lab3.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/lab3/obj/Debug/lab3.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab3/lab3/obj/Debug/lab3app.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/lab3/obj/Debug/lab3app.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab4/lab4/.vs/lab4/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../lab4/lab4/.vs/lab4/v16/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab4/lab4/.vs/lab4/v16/Server/sqlite3/storage.ide" beforeDir="false" afterPath="$PROJECT_DIR$/../lab4/lab4/.vs/lab4/v16/Server/sqlite3/storage.ide" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab4/lab4app/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../lab4/lab4app/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab6/lab6FormsApp/.vs/lab6FormsApp/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../lab6/lab6FormsApp/.vs/lab6FormsApp/v16/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab7/lab7console/Dragon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../lab7/lab7console/Dragon.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab7/lab7console/Dragon2.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../lab7/lab7console/Dragon2.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab7/lab7lib/.vs/lab7lib/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../lab7/lab7lib/.vs/lab7lib/v16/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab7/lab7lib/.vs/lab7lib/v16/Server/sqlite3/storage.ide" beforeDir="false" afterPath="$PROJECT_DIR$/../lab7/lab7lib/.vs/lab7lib/v16/Server/sqlite3/storage.ide" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab8/lab8lib/.vs/lab8lib/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../lab8/lab8lib/.vs/lab8lib/v16/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/.vs/lab9Wyklad/config/applicationhost.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/.vs/lab9Wyklad/v16/.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/.vs/lab9Wyklad/v16/Server/sqlite3/db.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/.vs/lab9Wyklad/v16/Server/sqlite3/storage.ide" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/App_Data/aspnet-lab9Wyklad-20200429012425.mdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/App_Data/aspnet-lab9Wyklad-20200429012425_log.ldf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/App_Start/BundleConfig.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/App_Start/FilterConfig.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/App_Start/IdentityConfig.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/App_Start/RouteConfig.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/App_Start/Startup.Auth.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/Content/Site.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/Content/bootstrap-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/Content/bootstrap-theme.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/Content/bootstrap-theme.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/Content/bootstrap-theme.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/Content/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/Content/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/Content/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/Content/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/Controllers/AccountController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/Controllers/HomeController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/Controllers/ManageController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/Global.asax" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/Global.asax.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/Models/AccountViewModels.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/Models/IdentityModels.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/Models/ManageViewModels.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/Properties/AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/Scripts/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/Scripts/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/Scripts/jquery-3.4.1.intellisense.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/Scripts/jquery-3.4.1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/Scripts/jquery-3.4.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/Scripts/jquery-3.4.1.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/Scripts/jquery-3.4.1.slim.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/Scripts/jquery-3.4.1.slim.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/Scripts/jquery-3.4.1.slim.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/Scripts/jquery.validate-vsdoc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/Scripts/jquery.validate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/Scripts/jquery.validate.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/Scripts/jquery.validate.unobtrusive.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/Scripts/jquery.validate.unobtrusive.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/Scripts/modernizr-2.8.3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/Startup.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/Views/Account/ConfirmEmail.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/Views/Account/ExternalLoginConfirmation.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/Views/Account/ExternalLoginFailure.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/Views/Account/ForgotPassword.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/Views/Account/ForgotPasswordConfirmation.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/Views/Account/Login.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/Views/Account/Register.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/Views/Account/ResetPassword.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/Views/Account/ResetPasswordConfirmation.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/Views/Account/SendCode.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/Views/Account/VerifyCode.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/Views/Account/_ExternalLoginsListPartial.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/Views/Home/About.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/Views/Home/Contact.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/Views/Home/Index.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/Views/Manage/AddPhoneNumber.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/Views/Manage/ChangePassword.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/Views/Manage/Index.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/Views/Manage/ManageLogins.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/Views/Manage/SetPassword.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/Views/Manage/VerifyPhoneNumber.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/Views/Shared/Error.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/Views/Shared/Lockout.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/Views/Shared/_Layout.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/Views/Shared/_LoginPartial.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/Views/Web.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/Views/_ViewStart.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/Web.Debug.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/Web.Release.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/Web.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/bin/Antlr3.Runtime.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/bin/Antlr3.Runtime.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/bin/EntityFramework.SqlServer.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/bin/EntityFramework.SqlServer.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/bin/EntityFramework.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/bin/EntityFramework.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/bin/Microsoft.AspNet.Identity.Core.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/bin/Microsoft.AspNet.Identity.Core.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/bin/Microsoft.AspNet.Identity.EntityFramework.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/bin/Microsoft.AspNet.Identity.EntityFramework.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/bin/Microsoft.AspNet.Identity.Owin.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/bin/Microsoft.AspNet.Identity.Owin.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/bin/Microsoft.Owin.Host.SystemWeb.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/bin/Microsoft.Owin.Host.SystemWeb.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/bin/Microsoft.Owin.Security.Cookies.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/bin/Microsoft.Owin.Security.Cookies.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/bin/Microsoft.Owin.Security.Facebook.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/bin/Microsoft.Owin.Security.Facebook.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/bin/Microsoft.Owin.Security.Google.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/bin/Microsoft.Owin.Security.Google.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/bin/Microsoft.Owin.Security.MicrosoftAccount.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/bin/Microsoft.Owin.Security.MicrosoftAccount.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/bin/Microsoft.Owin.Security.OAuth.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/bin/Microsoft.Owin.Security.OAuth.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/bin/Microsoft.Owin.Security.Twitter.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/bin/Microsoft.Owin.Security.Twitter.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/bin/Microsoft.Owin.Security.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/bin/Microsoft.Owin.Security.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/bin/Microsoft.Owin.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/bin/Microsoft.Owin.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/bin/Microsoft.Web.Infrastructure.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/bin/Newtonsoft.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/bin/Newtonsoft.Json.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/bin/Owin.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/bin/System.Web.Helpers.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/bin/System.Web.Helpers.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/bin/System.Web.Mvc.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/bin/System.Web.Mvc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/bin/System.Web.Optimization.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/bin/System.Web.Optimization.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/bin/System.Web.Razor.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/bin/System.Web.Razor.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/bin/System.Web.WebPages.Deployment.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/bin/System.Web.WebPages.Deployment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/bin/System.Web.WebPages.Razor.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/bin/System.Web.WebPages.Razor.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/bin/System.Web.WebPages.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/bin/System.Web.WebPages.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/bin/WebGrease.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/bin/lab9Wyklad.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/bin/lab9Wyklad.dll.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/bin/lab9Wyklad.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/bin/roslyn/Microsoft.CSharp.Core.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/bin/roslyn/Microsoft.CodeAnalysis.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/bin/roslyn/Microsoft.Managed.Core.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/bin/roslyn/Microsoft.VisualBasic.Core.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/bin/roslyn/Microsoft.Win32.Primitives.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/bin/roslyn/System.AppContext.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/bin/roslyn/System.Collections.Immutable.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/bin/roslyn/System.Console.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/bin/roslyn/System.Diagnostics.DiagnosticSource.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/bin/roslyn/System.Diagnostics.FileVersionInfo.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/bin/roslyn/System.Diagnostics.StackTrace.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/bin/roslyn/System.Globalization.Calendars.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/bin/roslyn/System.IO.Compression.ZipFile.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/bin/roslyn/System.IO.Compression.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/bin/roslyn/System.IO.FileSystem.Primitives.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/bin/roslyn/System.IO.FileSystem.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/bin/roslyn/System.Net.Http.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/bin/roslyn/System.Net.Sockets.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/bin/roslyn/System.Reflection.Metadata.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/bin/roslyn/System.Runtime.InteropServices.RuntimeInformation.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/bin/roslyn/System.Security.Cryptography.Algorithms.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/bin/roslyn/System.Security.Cryptography.Encoding.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/bin/roslyn/System.Security.Cryptography.Primitives.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/bin/roslyn/System.Security.Cryptography.X509Certificates.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/bin/roslyn/System.Text.Encoding.CodePages.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/bin/roslyn/System.Threading.Tasks.Extensions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/bin/roslyn/System.ValueTuple.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/bin/roslyn/System.Xml.ReaderWriter.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/bin/roslyn/System.Xml.XPath.XDocument.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/bin/roslyn/System.Xml.XPath.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/bin/roslyn/System.Xml.XmlDocument.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/bin/roslyn/VBCSCompiler.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/bin/roslyn/VBCSCompiler.exe.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/bin/roslyn/csc.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/bin/roslyn/csc.exe.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/bin/roslyn/csc.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/bin/roslyn/csi.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/bin/roslyn/csi.exe.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/bin/roslyn/csi.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/bin/roslyn/vbc.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/bin/roslyn/vbc.exe.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/bin/roslyn/vbc.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/lab9Wyklad.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/lab9Wyklad.csproj.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/lab9Wyklad.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/obj/Debug/lab9Wyklad.csproj.CopyComplete" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/obj/Debug/lab9Wyklad.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/obj/Debug/lab9Wyklad.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/obj/Debug/lab9Wyklad.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/obj/Debug/lab9Wyklad.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Antlr.3.5.0.2/.signature.p7s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Antlr.3.5.0.2/Antlr.3.5.0.2.nupkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Antlr.3.5.0.2/lib/Antlr3.Runtime.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Antlr.3.5.0.2/lib/Antlr3.Runtime.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/EntityFramework.6.2.0/.signature.p7s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/EntityFramework.6.2.0/EntityFramework.6.2.0.nupkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/EntityFramework.6.2.0/content/net40/App.config.transform" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/EntityFramework.6.2.0/content/net40/Web.config.transform" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/EntityFramework.6.2.0/lib/net40/EntityFramework.SqlServer.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/EntityFramework.6.2.0/lib/net40/EntityFramework.SqlServer.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/EntityFramework.6.2.0/lib/net40/EntityFramework.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/EntityFramework.6.2.0/lib/net40/EntityFramework.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/EntityFramework.6.2.0/lib/net45/EntityFramework.SqlServer.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/EntityFramework.6.2.0/lib/net45/EntityFramework.SqlServer.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/EntityFramework.6.2.0/lib/net45/EntityFramework.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/EntityFramework.6.2.0/lib/net45/EntityFramework.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/EntityFramework.6.2.0/tools/EntityFramework.PowerShell.Utility.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/EntityFramework.6.2.0/tools/EntityFramework.PowerShell.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/EntityFramework.6.2.0/tools/EntityFramework.psd1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/EntityFramework.6.2.0/tools/EntityFramework.psm1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/EntityFramework.6.2.0/tools/about_EntityFramework.help.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/EntityFramework.6.2.0/tools/init.ps1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/EntityFramework.6.2.0/tools/install.ps1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/EntityFramework.6.2.0/tools/migrate.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.AspNet.Identity.Core.2.2.2/.signature.p7s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.AspNet.Identity.Core.2.2.2/Microsoft.AspNet.Identity.Core.2.2.2.nupkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.AspNet.Identity.Core.2.2.2/lib/net45/Microsoft.AspNet.Identity.Core.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.AspNet.Identity.Core.2.2.2/lib/net45/Microsoft.AspNet.Identity.Core.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.AspNet.Identity.EntityFramework.2.2.2/.signature.p7s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.AspNet.Identity.EntityFramework.2.2.2/Microsoft.AspNet.Identity.EntityFramework.2.2.2.nupkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.AspNet.Identity.EntityFramework.2.2.2/lib/net45/Microsoft.AspNet.Identity.EntityFramework.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.AspNet.Identity.EntityFramework.2.2.2/lib/net45/Microsoft.AspNet.Identity.EntityFramework.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.AspNet.Identity.Owin.2.2.2/.signature.p7s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.AspNet.Identity.Owin.2.2.2/Microsoft.AspNet.Identity.Owin.2.2.2.nupkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.AspNet.Identity.Owin.2.2.2/lib/net45/Microsoft.AspNet.Identity.Owin.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.AspNet.Identity.Owin.2.2.2/lib/net45/Microsoft.AspNet.Identity.Owin.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.AspNet.Mvc.5.2.7/.signature.p7s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.AspNet.Mvc.5.2.7/Content/Web.config.install.xdt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.AspNet.Mvc.5.2.7/Content/Web.config.uninstall.xdt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.AspNet.Mvc.5.2.7/Microsoft.AspNet.Mvc.5.2.7.nupkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.AspNet.Mvc.5.2.7/lib/net45/System.Web.Mvc.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.AspNet.Mvc.5.2.7/lib/net45/System.Web.Mvc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.AspNet.Razor.3.2.7/.signature.p7s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.AspNet.Razor.3.2.7/Microsoft.AspNet.Razor.3.2.7.nupkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.AspNet.Razor.3.2.7/lib/net45/System.Web.Razor.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.AspNet.Razor.3.2.7/lib/net45/System.Web.Razor.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.AspNet.Web.Optimization.1.1.3/.signature.p7s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.AspNet.Web.Optimization.1.1.3/Microsoft.AspNet.Web.Optimization.1.1.3.nupkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.AspNet.Web.Optimization.1.1.3/lib/net40/System.Web.Optimization.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.AspNet.Web.Optimization.1.1.3/lib/net40/system.web.optimization.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.AspNet.WebPages.3.2.7/.signature.p7s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.AspNet.WebPages.3.2.7/Content/Web.config.install.xdt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.AspNet.WebPages.3.2.7/Content/Web.config.uninstall.xdt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.AspNet.WebPages.3.2.7/Microsoft.AspNet.WebPages.3.2.7.nupkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.AspNet.WebPages.3.2.7/lib/net45/System.Web.Helpers.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.AspNet.WebPages.3.2.7/lib/net45/System.Web.Helpers.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.AspNet.WebPages.3.2.7/lib/net45/System.Web.WebPages.Deployment.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.AspNet.WebPages.3.2.7/lib/net45/System.Web.WebPages.Deployment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.AspNet.WebPages.3.2.7/lib/net45/System.Web.WebPages.Razor.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.AspNet.WebPages.3.2.7/lib/net45/System.Web.WebPages.Razor.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.AspNet.WebPages.3.2.7/lib/net45/System.Web.WebPages.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.AspNet.WebPages.3.2.7/lib/net45/System.Web.WebPages.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/.signature.p7s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1.nupkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/build/net45/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.Extensions.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/build/net45/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/build/net46/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.Extensions.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/build/net46/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/content/net45/app.config.install.xdt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/content/net45/app.config.uninstall.xdt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/content/net45/web.config.install.xdt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/content/net45/web.config.uninstall.xdt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/content/net46/app.config.install.xdt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/content/net46/app.config.uninstall.xdt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/content/net46/web.config.install.xdt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/content/net46/web.config.uninstall.xdt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/lib/net45/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/lib/net45/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/Microsoft.Build.Tasks.CodeAnalysis.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/Microsoft.CSharp.Core.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/Microsoft.CodeAnalysis.CSharp.Scripting.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/Microsoft.CodeAnalysis.CSharp.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/Microsoft.CodeAnalysis.Scripting.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/Microsoft.CodeAnalysis.VisualBasic.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/Microsoft.CodeAnalysis.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/Microsoft.DiaSymReader.Native.amd64.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/Microsoft.DiaSymReader.Native.x86.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/Microsoft.VisualBasic.Core.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/System.AppContext.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/System.Collections.Immutable.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/System.Diagnostics.StackTrace.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/System.IO.FileSystem.Primitives.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/System.IO.FileSystem.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/System.Reflection.Metadata.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/VBCSCompiler.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/VBCSCompiler.exe.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/csc.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/csc.exe.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/csc.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/csi.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/csi.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/vbc.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/vbc.exe.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/vbc.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/Microsoft.Build.Tasks.CodeAnalysis.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/Microsoft.CSharp.Core.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/Microsoft.CodeAnalysis.CSharp.Scripting.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/Microsoft.CodeAnalysis.CSharp.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/Microsoft.CodeAnalysis.Scripting.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/Microsoft.CodeAnalysis.VisualBasic.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/Microsoft.CodeAnalysis.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/Microsoft.DiaSymReader.Native.amd64.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/Microsoft.DiaSymReader.Native.x86.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/Microsoft.Managed.Core.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/Microsoft.VisualBasic.Core.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/Microsoft.Win32.Primitives.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.AppContext.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.Collections.Immutable.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.Console.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.Diagnostics.DiagnosticSource.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.Diagnostics.FileVersionInfo.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.Diagnostics.StackTrace.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.Globalization.Calendars.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.IO.Compression.ZipFile.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.IO.Compression.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.IO.FileSystem.Primitives.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.IO.FileSystem.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.Net.Http.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.Net.Sockets.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.Reflection.Metadata.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.Runtime.InteropServices.RuntimeInformation.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.Security.Cryptography.Algorithms.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.Security.Cryptography.Encoding.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.Security.Cryptography.Primitives.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.Security.Cryptography.X509Certificates.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.Text.Encoding.CodePages.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.Threading.Tasks.Extensions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.ValueTuple.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.Xml.ReaderWriter.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.Xml.XPath.XDocument.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.Xml.XPath.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.Xml.XmlDocument.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/VBCSCompiler.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/VBCSCompiler.exe.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/csc.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/csc.exe.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/csc.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/csi.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/csi.exe.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/csi.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/vbc.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/vbc.exe.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/vbc.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/net45/install.ps1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/net45/uninstall.ps1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.Owin.4.0.1/.signature.p7s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.Owin.4.0.1/Microsoft.Owin.4.0.1.nupkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.Owin.4.0.1/lib/net45/Microsoft.Owin.XML" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.Owin.4.0.1/lib/net45/Microsoft.Owin.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.Owin.Host.SystemWeb.4.0.1/.signature.p7s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.Owin.Host.SystemWeb.4.0.1/Microsoft.Owin.Host.SystemWeb.4.0.1.nupkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.Owin.Host.SystemWeb.4.0.1/lib/net45/Microsoft.Owin.Host.SystemWeb.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.Owin.Host.SystemWeb.4.0.1/lib/net45/Microsoft.Owin.Host.SystemWeb.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.Owin.Security.4.0.1/.signature.p7s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.Owin.Security.4.0.1/Microsoft.Owin.Security.4.0.1.nupkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.Owin.Security.4.0.1/lib/net45/Microsoft.Owin.Security.XML" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.Owin.Security.4.0.1/lib/net45/Microsoft.Owin.Security.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.Owin.Security.Cookies.4.0.1/.signature.p7s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.Owin.Security.Cookies.4.0.1/Microsoft.Owin.Security.Cookies.4.0.1.nupkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.Owin.Security.Cookies.4.0.1/lib/net45/Microsoft.Owin.Security.Cookies.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.Owin.Security.Cookies.4.0.1/lib/net45/Microsoft.Owin.Security.Cookies.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.Owin.Security.Facebook.4.0.1/.signature.p7s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.Owin.Security.Facebook.4.0.1/Microsoft.Owin.Security.Facebook.4.0.1.nupkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.Owin.Security.Facebook.4.0.1/lib/net45/Microsoft.Owin.Security.Facebook.XML" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.Owin.Security.Facebook.4.0.1/lib/net45/Microsoft.Owin.Security.Facebook.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.Owin.Security.Google.4.0.1/.signature.p7s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.Owin.Security.Google.4.0.1/Microsoft.Owin.Security.Google.4.0.1.nupkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.Owin.Security.Google.4.0.1/lib/net45/Microsoft.Owin.Security.Google.XML" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.Owin.Security.Google.4.0.1/lib/net45/Microsoft.Owin.Security.Google.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.Owin.Security.MicrosoftAccount.4.0.1/.signature.p7s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.Owin.Security.MicrosoftAccount.4.0.1/Microsoft.Owin.Security.MicrosoftAccount.4.0.1.nupkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.Owin.Security.MicrosoftAccount.4.0.1/lib/net45/Microsoft.Owin.Security.MicrosoftAccount.XML" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.Owin.Security.MicrosoftAccount.4.0.1/lib/net45/Microsoft.Owin.Security.MicrosoftAccount.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.Owin.Security.OAuth.4.0.1/.signature.p7s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.Owin.Security.OAuth.4.0.1/Microsoft.Owin.Security.OAuth.4.0.1.nupkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.Owin.Security.OAuth.4.0.1/lib/net45/Microsoft.Owin.Security.OAuth.XML" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.Owin.Security.OAuth.4.0.1/lib/net45/Microsoft.Owin.Security.OAuth.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.Owin.Security.Twitter.4.0.1/.signature.p7s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.Owin.Security.Twitter.4.0.1/Microsoft.Owin.Security.Twitter.4.0.1.nupkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.Owin.Security.Twitter.4.0.1/lib/net45/Microsoft.Owin.Security.Twitter.XML" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.Owin.Security.Twitter.4.0.1/lib/net45/Microsoft.Owin.Security.Twitter.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.Web.Infrastructure.1.0.0.0/.signature.p7s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.Web.Infrastructure.1.0.0.0/Microsoft.Web.Infrastructure.1.0.0.0.nupkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.Web.Infrastructure.1.0.0.0/lib/net40/Microsoft.Web.Infrastructure.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.jQuery.Unobtrusive.Validation.3.2.11/.signature.p7s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.jQuery.Unobtrusive.Validation.3.2.11/Content/Scripts/jquery.validate.unobtrusive.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.jQuery.Unobtrusive.Validation.3.2.11/Content/Scripts/jquery.validate.unobtrusive.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Microsoft.jQuery.Unobtrusive.Validation.3.2.11/Microsoft.jQuery.Unobtrusive.Validation.3.2.11.nupkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Modernizr.2.8.3/.signature.p7s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Modernizr.2.8.3/Content/Scripts/modernizr-2.8.3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Modernizr.2.8.3/Modernizr.2.8.3.nupkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Modernizr.2.8.3/Tools/common.ps1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Modernizr.2.8.3/Tools/install.ps1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Modernizr.2.8.3/Tools/uninstall.ps1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Newtonsoft.Json.12.0.2/.signature.p7s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Newtonsoft.Json.12.0.2/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Newtonsoft.Json.12.0.2/Newtonsoft.Json.12.0.2.nupkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Newtonsoft.Json.12.0.2/lib/net20/Newtonsoft.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Newtonsoft.Json.12.0.2/lib/net20/Newtonsoft.Json.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Newtonsoft.Json.12.0.2/lib/net35/Newtonsoft.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Newtonsoft.Json.12.0.2/lib/net35/Newtonsoft.Json.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Newtonsoft.Json.12.0.2/lib/net40/Newtonsoft.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Newtonsoft.Json.12.0.2/lib/net40/Newtonsoft.Json.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Newtonsoft.Json.12.0.2/lib/net45/Newtonsoft.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Newtonsoft.Json.12.0.2/lib/net45/Newtonsoft.Json.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Newtonsoft.Json.12.0.2/lib/netstandard1.0/Newtonsoft.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Newtonsoft.Json.12.0.2/lib/netstandard1.0/Newtonsoft.Json.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Newtonsoft.Json.12.0.2/lib/netstandard1.3/Newtonsoft.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Newtonsoft.Json.12.0.2/lib/netstandard1.3/Newtonsoft.Json.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Newtonsoft.Json.12.0.2/lib/netstandard2.0/Newtonsoft.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Newtonsoft.Json.12.0.2/lib/netstandard2.0/Newtonsoft.Json.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Newtonsoft.Json.12.0.2/lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Newtonsoft.Json.12.0.2/lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Newtonsoft.Json.12.0.2/lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Newtonsoft.Json.12.0.2/lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Owin.1.0/.signature.p7s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Owin.1.0/Owin.1.0.nupkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/Owin.1.0/lib/net40/Owin.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/WebGrease.1.6.0/.signature.p7s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/WebGrease.1.6.0/WebGrease.1.6.0.nupkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/WebGrease.1.6.0/lib/WebGrease.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/WebGrease.1.6.0/tools/WG.EXE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/bootstrap.3.4.1/.signature.p7s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/bootstrap.3.4.1/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/bootstrap.3.4.1/bootstrap.3.4.1.nupkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/bootstrap.3.4.1/content/Content/bootstrap-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/bootstrap.3.4.1/content/Content/bootstrap-theme.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/bootstrap.3.4.1/content/Content/bootstrap-theme.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/bootstrap.3.4.1/content/Content/bootstrap-theme.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/bootstrap.3.4.1/content/Content/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/bootstrap.3.4.1/content/Content/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/bootstrap.3.4.1/content/Content/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/bootstrap.3.4.1/content/Content/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/bootstrap.3.4.1/content/Scripts/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/bootstrap.3.4.1/content/Scripts/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/bootstrap.3.4.1/content/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/bootstrap.3.4.1/content/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/bootstrap.3.4.1/content/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/bootstrap.3.4.1/content/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/bootstrap.3.4.1/content/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/bootstrap.3.4.1/contentFiles/Content/bootstrap-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/bootstrap.3.4.1/contentFiles/Content/bootstrap-theme.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/bootstrap.3.4.1/contentFiles/Content/bootstrap-theme.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/bootstrap.3.4.1/contentFiles/Content/bootstrap-theme.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/bootstrap.3.4.1/contentFiles/Content/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/bootstrap.3.4.1/contentFiles/Content/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/bootstrap.3.4.1/contentFiles/Content/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/bootstrap.3.4.1/contentFiles/Content/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/bootstrap.3.4.1/contentFiles/Scripts/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/bootstrap.3.4.1/contentFiles/Scripts/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/bootstrap.3.4.1/contentFiles/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/bootstrap.3.4.1/contentFiles/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/bootstrap.3.4.1/contentFiles/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/bootstrap.3.4.1/contentFiles/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/bootstrap.3.4.1/contentFiles/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/jQuery.3.4.1/.signature.p7s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/jQuery.3.4.1/Content/Scripts/jquery-3.4.1-vsdoc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/jQuery.3.4.1/Content/Scripts/jquery-3.4.1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/jQuery.3.4.1/Content/Scripts/jquery-3.4.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/jQuery.3.4.1/Content/Scripts/jquery-3.4.1.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/jQuery.3.4.1/Content/Scripts/jquery-3.4.1.slim.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/jQuery.3.4.1/Content/Scripts/jquery-3.4.1.slim.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/jQuery.3.4.1/Content/Scripts/jquery-3.4.1.slim.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/jQuery.3.4.1/Tools/common.ps1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/jQuery.3.4.1/Tools/install.ps1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/jQuery.3.4.1/Tools/jquery-3.4.1.intellisense.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/jQuery.3.4.1/Tools/uninstall.ps1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/jQuery.3.4.1/jQuery.3.4.1.nupkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/jQuery.Validation.1.17.0/.signature.p7s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/jQuery.Validation.1.17.0/Content/Scripts/jquery.validate-vsdoc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/jQuery.Validation.1.17.0/Content/Scripts/jquery.validate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/jQuery.Validation.1.17.0/Content/Scripts/jquery.validate.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9Wyklad/lab9Wyklad/packages/jQuery.Validation.1.17.0/jQuery.Validation.1.17.0.nupkg" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1dWz04GhWg8AGJTZgWIwHNXNyiP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../PPR/untitledlab 122" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9767b75a-527b-421e-8bc3-effa2fbf9d6c" name="Default Changelist" comment="" />
+      <created>1592555410102</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592555410102</updated>
+      <workItem from="1592555411480" duration="29000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1592555436845">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592555436845" />
+  </component>
+</project>

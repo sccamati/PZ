@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<ArrayOfContact xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Contact>
+    <Name>Pawel</Name>
+    <LastName>Aleksandrowicz</LastName>
+    <Phone>123123123</Phone>
+    <Email>email@wp.pl</Email>
+    <Skype>jakis.skype</Skype>
+  </Contact>
+  <Contact>
+    <Name>Mariusz</Name>
+    <LastName>Kowalski</LastName>
+    <Phone>321312312</Phone>
+    <Email>Email2@wp.pl</Email>
+  </Contact>
+</ArrayOfContact>

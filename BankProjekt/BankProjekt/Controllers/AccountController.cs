@@ -1,15 +1,14 @@
-﻿using System;
-using System.Globalization;
+﻿using BankProjekt.DAL;
+using BankProjekt.Models;
+using Microsoft.AspNet.Identity;
+using Microsoft.AspNet.Identity.EntityFramework;
+using Microsoft.AspNet.Identity.Owin;
+using Microsoft.Owin.Security;
+using System;
 using System.Linq;
-using System.Security.Claims;
 using System.Threading.Tasks;
 using System.Web;
 using System.Web.Mvc;
-using Microsoft.AspNet.Identity;
-using Microsoft.AspNet.Identity.Owin;
-using Microsoft.Owin.Security;
-using BankProjekt.Models;
-using BankProjekt.DAL;
 
 namespace BankProjekt.Controllers
 {
@@ -23,7 +22,7 @@ namespace BankProjekt.Controllers
         {
         }
 
-        public AccountController(ApplicationUserManager userManager, ApplicationSignInManager signInManager )
+        public AccountController(ApplicationUserManager userManager, ApplicationSignInManager signInManager)
         {
             UserManager = userManager;
             SignInManager = signInManager;
@@ -35,9 +34,9 @@ namespace BankProjekt.Controllers
             {
                 return _signInManager ?? HttpContext.GetOwinContext().Get<ApplicationSignInManager>();
             }
-            private set 
-            { 
-                _signInManager = value; 
+            private set
+            {
+                _signInManager = value;
             }
         }
 
@@ -79,17 +78,47 @@ namespace BankProjekt.Controllers
             var result = await SignInManager.PasswordSignInAsync(model.Email, model.Password, model.RememberMe, shouldLockout: true);
             switch (result)
             {
-                case SignInStatus.Success:
-                    return RedirectToLocal(returnUrl);
+                case SignInStatus.Success: {
+
+                        if (hasRole(model.Email, "Worker") || hasRole(model.Email, "Admin"))
+                        {
+                            return RedirectToAction("CreditProposalsList", "Worker");
+                        }
+                        else if (hasRole(model.Email, "User"))
+                        {
+                            return RedirectToAction("UserIndex", "Home");
+                        }
+                        return RedirectToAction("Index", "Home");
+                    }
+                    
+
                 case SignInStatus.LockedOut:
                     return View("Lockout");
+
                 case SignInStatus.RequiresVerification:
                     return RedirectToAction("SendCode", new { ReturnUrl = returnUrl, RememberMe = model.RememberMe });
+
                 case SignInStatus.Failure:
                 default:
                     ModelState.AddModelError("", "Invalid login attempt.");
                     return View(model);
             }
+        }
+
+        private bool hasRole(string email, string role)
+        {
+            var userManager = new UserManager<ApplicationUser>(
+            new UserStore<ApplicationUser>(new ApplicationDbContext()));
+
+            var roleManager = new RoleManager<IdentityRole>(
+            new RoleStore<IdentityRole>(new ApplicationDbContext()));
+
+
+            if(userManager.FindByName(email).Roles.Any(u => u.RoleId.Equals(roleManager.FindByName(role).Id)))
+            {
+                return true;
+            }
+            return false;
         }
 
         //
@@ -117,17 +146,20 @@ namespace BankProjekt.Controllers
                 return View(model);
             }
 
-            // The following code protects for brute force attacks against the two factor codes. 
-            // If a user enters incorrect codes for a specified amount of time then the user account 
-            // will be locked out for a specified amount of time. 
+            // The following code protects for brute force attacks against the two factor codes.
+            // If a user enters incorrect codes for a specified amount of time then the user account
+            // will be locked out for a specified amount of time.
             // You can configure the account lockout settings in IdentityConfig
-            var result = await SignInManager.TwoFactorSignInAsync(model.Provider, model.Code, isPersistent:  model.RememberMe, rememberBrowser: model.RememberBrowser);
+            var result = await SignInManager.TwoFactorSignInAsync(model.Provider, model.Code, isPersistent: model.RememberMe, rememberBrowser: model.RememberBrowser);
             switch (result)
             {
                 case SignInStatus.Success:
+                   
                     return RedirectToLocal(model.ReturnUrl);
+
                 case SignInStatus.LockedOut:
                     return View("Lockout");
+
                 case SignInStatus.Failure:
                 default:
                     ModelState.AddModelError("", "Invalid code.");
@@ -156,19 +188,18 @@ namespace BankProjekt.Controllers
                 var result = await UserManager.CreateAsync(user, model.Password);
                 if (result.Succeeded)
                 {
-                    await SignInManager.SignInAsync(user, isPersistent:false, rememberBrowser:false);
+                    await UserManager.AddToRoleAsync(user.Id, "User");
+                    await SignInManager.SignInAsync(user, isPersistent: false, rememberBrowser: false);
 
-                    // For more information on how to enable account confirmation and password reset please visit https://go.microsoft.com/fwlink/?LinkID=320771
-                    // Send an email with this link
-                    // string code = await UserManager.GenerateEmailConfirmationTokenAsync(user.Id);
-                    // var callbackUrl = Url.Action("ConfirmEmail", "Account", new { userId = user.Id, code = code }, protocol: Request.Url.Scheme);
-                    // await UserManager.SendEmailAsync(user.Id, "Confirm your account", "Please confirm your account by clicking <a href=\"" + callbackUrl + "\">here</a>");
+                   
                     BankContext db = new BankContext();
                     Address address = new Address { HouseNumber = model.HouseNumber, Street = model.Street, PostCode = model.PostalCode, City = model.City };
                     db.Addresses.Add(address);
                     Profile profile = new Profile { Address = address, Name = model.Name, LastName = model.LastName, Email = model.Email, Pesel = model.PESEL, BirthDate = model.BirthDate, MothersName = model.MothersName };
                     db.Profiles.Add(profile);
-                    BankAccount bankAccount = new BankAccount { Number = "1", Balance = 0, Profile = profile };
+                    var number = db.BankAccounts.Max(n => n.Number);
+                    
+                    BankAccount bankAccount = new BankAccount { Number = (Int32.Parse(number)+1).ToString(), Balance = 0, Profile = profile };
                     db.BankAccounts.Add(bankAccount);
                     db.SaveChanges();
                     return RedirectToAction("Index", "Home");
@@ -220,7 +251,7 @@ namespace BankProjekt.Controllers
                 // For more information on how to enable account confirmation and password reset please visit https://go.microsoft.com/fwlink/?LinkID=320771
                 // Send an email with this link
                 // string code = await UserManager.GeneratePasswordResetTokenAsync(user.Id);
-                // var callbackUrl = Url.Action("ResetPassword", "Account", new { userId = user.Id, code = code }, protocol: Request.Url.Scheme);		
+                // var callbackUrl = Url.Action("ResetPassword", "Account", new { userId = user.Id, code = code }, protocol: Request.Url.Scheme);
                 // await UserManager.SendEmailAsync(user.Id, "Reset Password", "Please reset your password by clicking <a href=\"" + callbackUrl + "\">here</a>");
                 // return RedirectToAction("ForgotPasswordConfirmation", "Account");
             }
@@ -342,10 +373,13 @@ namespace BankProjekt.Controllers
             {
                 case SignInStatus.Success:
                     return RedirectToLocal(returnUrl);
+
                 case SignInStatus.LockedOut:
                     return View("Lockout");
+
                 case SignInStatus.RequiresVerification:
                     return RedirectToAction("SendCode", new { ReturnUrl = returnUrl, RememberMe = false });
+
                 case SignInStatus.Failure:
                 default:
                     // If the user does not have an account, then prompt the user to create an account
@@ -432,6 +466,7 @@ namespace BankProjekt.Controllers
         }
 
         #region Helpers
+
         // Used for XSRF protection when adding external logins
         private const string XsrfKey = "XsrfId";
 
@@ -488,6 +523,7 @@ namespace BankProjekt.Controllers
                 context.HttpContext.GetOwinContext().Authentication.Challenge(properties, LoginProvider);
             }
         }
-        #endregion
+
+        #endregion Helpers
     }
 }
